@@ -24,7 +24,7 @@
 
 >  BOJ/[문제번호] 문제 이름/계정/src
 >
-> e.g) BOJ/[13460] 구슬 탈출2/yoon1fe/Main.java
+> e.g) BOJ/[13460] 구슬 탈출2/eun2u/Main.java
 >
 > BOJ/[문제번호] 문제 이름/계정/README.md
 
@@ -32,9 +32,9 @@
 
 ###  :family_man_girl: Contributors
 
-> [다윤](https://github.com/JungDayoon)
+> [dayoon](https://github.com/JungDayoon)
 >
-> [은주](https://github.com/eun2u)
+> [eun2u](https://github.com/eun2u)
 
 
 
