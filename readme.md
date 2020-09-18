@@ -32,11 +32,10 @@
 
 ###  :family_man_girl: Contributors
 
-> [yoon1fe](https://github.com/yoon1fe)
+> [다윤](https://github.com/JungDayoon)
 >
-> [nsun9505](https://github.com/nsun9505)
->
-> [leegw217](https://github.com/leegw217)
+> [은주](https://github.com/eun2u)
+
 
 
 
