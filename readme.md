@@ -32,13 +32,15 @@
 
 ###  :family_man_girl: Contributors
 
-> [dayoon](https://github.com/JungDayoon)
+> [ekdbsl](https://github.com/JungDayoon)
 >
 > [eun2u](https://github.com/eun2u)
 >
 > [starempty](https://github.com/starempty)
 >
 > [njh0317](https://github.com/njh0317)
+>
+> [lululalyang](https://github.com/SimEuilyang)
 
 
 
