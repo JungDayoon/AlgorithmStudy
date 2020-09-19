@@ -38,7 +38,7 @@
 >
 > [starempty](https://github.com/starempty)
 >
-> [njh0317](https://github.com/njh0317)
+> [n__aj22](https://github.com/njh0317)
 >
 > [lululalyang](https://github.com/SimEuilyang)
 
