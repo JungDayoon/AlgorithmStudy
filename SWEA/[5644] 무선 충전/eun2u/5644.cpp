@@ -10,7 +10,6 @@ vector<int> moveb;
 vector< pair<int,int> > bcA;
 vector< pair<int,int> > bcB;
 int range[8][10][10];
-bool visited[10][10];
 int dy[5]={0,-1,0,1,0};
 int dx[5]={0,0,1,0,-1};
 int m, ap;
@@ -84,7 +83,6 @@ void setRange(int k, int y, int x, int c,int p,int gone){
     if(gone==c) return;
     
     range[k][y][x]=p;
-    visited[y][x]=true;
     
     for(int dir=1;dir<5;dir++){
         int ny=y+dy[dir];
@@ -95,11 +93,6 @@ void setRange(int k, int y, int x, int c,int p,int gone){
        //if(!visited[ny][nx]) --> 조건이 없어야함. 
         setRange(k,ny,nx,c, p,gone+1);
     }
-}
-void init_visited(){
-    for(int i=0;i<10;i++)
-        for(int j=0;j<10;j++)
-            visited[i][j]=false;
 }
 void init(){
     for(int i=0;i<8;i++)
@@ -131,7 +124,6 @@ int main(){
         int x,y,c,p;
         for(int k=0;k<ap;k++){
             cin>>x>>y>>c>>p;
-            init_visited();
             setRange(k, y-1, x-1, c, p, -1);
         }
 
