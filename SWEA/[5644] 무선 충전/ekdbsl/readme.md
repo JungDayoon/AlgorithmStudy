@@ -1,4 +1,4 @@
-# [5644] 무선충전 - Python
+# [SWEA 5644] 무선충전 - Python
 
 ### Algorithm
 
