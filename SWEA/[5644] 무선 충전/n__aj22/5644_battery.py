@@ -19,7 +19,6 @@ def check_charge_num(A_D, B_D):
 
     #print(a_b, end=" ")
     if(len(a_b)==0): # 겹치지 않는 경우
-        
         for i in A_D:
             temp = Battery[i-1][3]
             if(maxa<temp):
