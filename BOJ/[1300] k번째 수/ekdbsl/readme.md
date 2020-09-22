@@ -1,4 +1,4 @@
-# K번째 수
+# [BOJ 1300] K번째 수 - Python
 
 ### :computer: Algorithm
 
