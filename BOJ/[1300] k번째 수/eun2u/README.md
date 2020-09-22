@@ -41,7 +41,7 @@ long long binarySearch(long long mid){
 
 if(i*j ≤ mid) 해서 구하는 것과 cnt+=min(mid/i,N) 는 같다
 
-즉, mid 보다 작거나 같은 수의 개수와 8을 1부터 N까지 나눈 값을 더한 값과 같다.   
+즉, mid 보다 작거나 같은 수의 개수와 mid를 1부터 N까지 나눈 값을 더한 값과 같다.   
 
 
 
