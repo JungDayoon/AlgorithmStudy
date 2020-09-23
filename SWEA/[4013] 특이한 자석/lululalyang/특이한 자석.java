@@ -28,86 +28,17 @@ public class _4013 {
 					RotateClock(M[magNum]);
 					int flag = 1;
 					
-					for(int j=magNum+1; j<4; j++) {
-						if(flag == 1) {
-							if(M[j][6] == M[j-1][3]) {
-								break;
-							}else { //인력에 의해 회전해야하는 경우
-								RotateCounterClock(M[j]);
-								flag = 0;
-							}
-						}else { //flag == 0: 이전에 반시계로 회전한 경우
-							if(M[j][6] == M[j-1][1]) {
-								break;
-							}else { //인력에 의해 회전해야하는 경우
-								RotateClock(M[j]);
-								flag = 1;
-							}
-						}
-					}
-					
+					Bigger(M, flag, magNum);
 					flag = 1;
-					for(int j=magNum-1; j>=0; j--) {
-						if(flag == 1) {
-							if(M[j][2] == M[j+1][7]) {
-								break;
-							}else {
-								RotateCounterClock(M[j]);
-								flag = 0;
-							}
-						}else { //flag == 0
-							if(M[j][2] == M[j+1][5]) {
-								break;
-							}else {
-								RotateClock(M[j]);
-								flag = 1;
-							}
-						}
-					}
-						
+					Smaller(M, flag, magNum);
 				}else { //direction == 0
 					RotateCounterClock(M[magNum]);
 					int flag = 0;
 					
-					for(int j=magNum+1; j<4; j++) {
-						if(flag == 1) {
-							if(M[j][6] == M[j-1][3]) {
-								break;
-							}else { //인력에 의해 회전해야하는 경우
-								RotateCounterClock(M[j]);
-								flag = 0;
-							}
-						}else { //flag == 0: 이전에 반시계로 회전한 경우
-							if(M[j][6] == M[j-1][1]) {
-								break;
-							}else { //인력에 의해 회전해야하는 경우
-								RotateClock(M[j]);
-								flag = 1;
-							}
-						}
-					}
-					
+					Bigger(M, flag, magNum);
 					flag = 0;
-					for(int j=magNum-1; j>=0; j--) {
-						if(flag == 1) {
-							if(M[j][2] == M[j+1][7]) {
-								break;
-							}else {
-								RotateCounterClock(M[j]);
-								flag = 0;
-							}
-						}else { //flag == 0
-							if(M[j][2] == M[j+1][5]) {
-								break;
-							}else {
-								RotateClock(M[j]);
-								flag = 1;
-							}
-						}
-					}
+					Smaller(M, flag, magNum);
 				}
-				
-				
 			}
 			
 			int resultSum = 0;
@@ -123,6 +54,46 @@ public class _4013 {
 		
 		for(int i=0; i<T; i++) {
 			System.out.println("#"+(i+1)+" "+result[i]);
+		}
+	}
+	
+	static void Bigger(int[][] M, int flag, int magNum) {
+		for(int j=magNum+1; j<4; j++) {
+			if(flag == 1) {
+				if(M[j][6] == M[j-1][3]) {
+					break;
+				}else { //인력에 의해 회전해야하는 경우
+					RotateCounterClock(M[j]);
+					flag = 0;
+				}
+			}else { //flag == 0: 이전에 반시계로 회전한 경우
+				if(M[j][6] == M[j-1][1]) {
+					break;
+				}else { //인력에 의해 회전해야하는 경우
+					RotateClock(M[j]);
+					flag = 1;
+				}
+			}
+		}
+	}
+	
+	static void Smaller(int[][] M, int flag, int magNum) {
+		for(int j=magNum-1; j>=0; j--) {
+			if(flag == 1) {
+				if(M[j][2] == M[j+1][7]) {
+					break;
+				}else {
+					RotateCounterClock(M[j]);
+					flag = 0;
+				}
+			}else { //flag == 0
+				if(M[j][2] == M[j+1][5]) {
+					break;
+				}else {
+					RotateClock(M[j]);
+					flag = 1;
+				}
+			}
 		}
 	}
 	
