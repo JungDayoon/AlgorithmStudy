@@ -1,5 +1,3 @@
-
-#import sys
 def turn_right(magnet):
     temp = magnet[7]
     for i in range(6, -1, -1):
