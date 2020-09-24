@@ -1,6 +1,6 @@
 직관적으로 top-down 방식으로 분할하여 출력하므로 재귀겠거니 하고 시작은 했는데 최종값과 괄호를 처리하는 부분이 낯설어서 많이 고민했습니다..
 
-백준 색종이 만들기 문제(https://www.acmicpc.net/problem/2630)를 많이 참고했습니다.
+[백준 색종이 만들기 문제](https://www.acmicpc.net/problem/2630)를 많이 참고했습니다.
 
 재귀의 세계는 역시 따라가기힘드네요...
 
@@ -22,6 +22,8 @@
       v.append(list(map(int, list(tmp))))
     </code>
   </pre>
+  
+  ---
   
 추가 공부: 
 
