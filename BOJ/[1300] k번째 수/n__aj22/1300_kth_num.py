@@ -1,20 +1,20 @@
 n = int(input())
 k = int(input())
 
-def check_num(num):
-  check_num = 0
-  for i in range(1, int(num**0.5)+1):
-    if (num%i == 0) and ((num//i)<=n):#n=3
-      check_num+=1
-      if i!=num//i:
-        check_num+=1
-  return check_num
+start = 1
+end = k
 
-i=1
-while(True):
-  if(k<=0):
-    break;
-  k-=check_num(i)
-  i+=1
-print(i-1)
-  
+while(start<=end):
+  mid = (start+end)//2
+  num=0
+  for i in range(1, n+1):
+    num+= min(n, mid//i)
+  if(num>=k):
+    result = mid
+    end = mid-1
+    
+  else:
+    start = mid+1
+
+print(result)
+
