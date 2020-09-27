@@ -31,9 +31,9 @@ N = 5라면 전체에서 조합이 0인 경우를 빼면 조합이 5인 경우�
 for i in range(N//2+1):
 	comb = list(combinations(person, i))
 	for comb_item in comb:
-        other = [x for x in person if x not in comb_item]
-        minTime.append(solution(comb_item, other)) #집합1이 stair1, 집합2이 stair2를 사용하는 경우
-        minTime.append(solution(other, comb_item)) #집합1이 stair2, 집합2이 stair1을 사용하는 경우
+            other = [x for x in person if x not in comb_item]
+            minTime.append(solution(comb_item, other)) #집합1이 stair1, 집합2이 stair2를 사용하는 경우
+            minTime.append(solution(other, comb_item)) #집합1이 stair2, 집합2이 stair1을 사용하는 경우
 ```
 
 
