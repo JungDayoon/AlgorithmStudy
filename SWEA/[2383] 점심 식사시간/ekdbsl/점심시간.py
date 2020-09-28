@@ -61,7 +61,6 @@ for test_case in range(1, T + 1):
             elif Map[i][j] >= 2:
                 stair.append([Map[i][j], i, j])
 
-    comb = []
     for i in range(N//2+1):
         comb = list(combinations(person, i))
         # print(comb)
