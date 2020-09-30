@@ -8,7 +8,8 @@
 
 해결방법:
 1. combinations 함수 돌려서 인덱싱가지고 모든 경우의 수를 만들었다.(다윤이 코드 참고하였음)
-<pre>```python
+<pre>
+```py
 answer = []
         for i in range(n):
             choose = list(combinations(range(0,len(person)), i))
@@ -20,7 +21,8 @@ answer = []
                     index.append(k)
                 second = arrange(index, person, stair)
                 answer.append(calculate(first, second, stair))
-```</pre>
+```
+</pre>
 2. 대기시간을 고려하여야함으로 (가장 늦게 오는 사람으로부터 세 사람 전의 시간 + 내려가는시간)과 비교하여 max값을 반환함으로써 대기시간을 계산할 필요가 없었다.
 <pre><code>
 def calculate(first, second, stair):
