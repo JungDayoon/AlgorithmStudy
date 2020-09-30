@@ -8,8 +8,8 @@
 
 해결방법:
 1. combinations 함수 돌려서 인덱싱가지고 모든 경우의 수를 만들었다.(다윤이 코드 참고하였음)
-<pre>
-```py
+
+```python
 answer = []
         for i in range(n):
             choose = list(combinations(range(0,len(person)), i))
@@ -22,9 +22,9 @@ answer = []
                 second = arrange(index, person, stair)
                 answer.append(calculate(first, second, stair))
 ```
-</pre>
+
 2. 대기시간을 고려하여야함으로 (가장 늦게 오는 사람으로부터 세 사람 전의 시간 + 내려가는시간)과 비교하여 max값을 반환함으로써 대기시간을 계산할 필요가 없었다.
-<pre><code>
+```python
 def calculate(first, second, stair):
     st = sorted(first)
     nd = sorted(second)
@@ -42,7 +42,7 @@ def calculate(first, second, stair):
             time2 = max(nd[j], nd[j-3]+stair[1])
 
     return max(time1, time2)
-</code></pre>
+```
 3. 결국 이해못해서 파이썬 내장함수를 사용했기때문에 재귀를 이용한 dfs공부가 더 필요하다..
 4. 아직도 잘 모르겠지만.. 실제로 돌려서 아웃풋을 확인하는 방법으로 어찌어찌 답은 냈습니다..
 
