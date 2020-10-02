@@ -1,6 +1,6 @@
 백트래킹(DFS)
 
-`bool check(int row, int col, int k)`
+1. `bool check(int row, int col, int k)`
 
 해당 row에, col에 k가 존재하는지, (row/3)*3, (col/3)*3으로 for문 작성하여 해당 박스에 k가 존재하는지 checked[3] 배열에 0 또는 1로 담아서 1이 하나라도 있으면 false 반환, 아니면 true 반환
 
@@ -9,7 +9,7 @@
 배열에 담는 것 보다 그냥 for문 하나씩 돌려서 리턴값 비교하는게 오히려 더 시간이 덜 든다는 것을 알게되었다.
 
 
-`void dfs(int cnt)`
+2. `void dfs(int cnt)`
 
 `if(cnt == list.size())` : 종료조건 만족하여 정답 출력완료 시 return이 아니라 exit(0)을 해주어야했다. 은주가 말해줬었지만 잠시 혼동하여 삽질 조금했다. 하지만 return과 exit()의 차이를 잘 알게되었다.
 
