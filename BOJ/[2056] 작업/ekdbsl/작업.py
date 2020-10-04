@@ -27,4 +27,4 @@ while queue:
         if indegree[Next] == 0:
             queue.append(Next)
     
-print(endTime)
+print(max(endTime))
