@@ -23,7 +23,7 @@
 
   :heavy_plus_sign:) 서비스 영역의 크기 `K`는 1부터 ***N+1***까지 
 
-  예를 들어, `N=4`이고 `K=4`이면 범위를 아무리 움직여도 모든 `map`을 덮을 수 없다.  <img src="C:\Users\dmlfi\AppData\Roaming\Typora\typora-user-images\image-20201006152744577.png" alt="image-20201006152744577" style="zoom: 50%;" />
+  예를 들어, `N=4`이고 `K=4`이면 범위를 아무리 움직여도 모든 `map`을 덮을 수 없다.  ![image](https://user-images.githubusercontent.com/33208360/95167493-bc6e0280-07ea-11eb-8a28-77a6e1c05f8e.png)
 
 * `static int check(int K, int i, int j, ArrayList<int[]> house){}`
 
