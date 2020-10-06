@@ -1,9 +1,7 @@
 import sys
 R,C,M = map(int, sys.stdin.readline().split())
 shark = [[0]*(C+1) for _ in range(R+1)]
-#print(shark)
-dc = [0,0,0,1,-1]
-dr = [0,-1,1,0,0]
+
 for i in range(M):
     new_shark = list(map(int, sys.stdin.readline().split()))
     shark[new_shark[0]][new_shark[1]] = [new_shark[2],new_shark[3],new_shark[4]]
@@ -52,9 +50,6 @@ def change_loc(r,c,s,d,z):
             c = 1
             d = 3
     return r,c,origins,d,z
-
-
-
 
 if __name__ == "__main__":
     catch_size = 0
