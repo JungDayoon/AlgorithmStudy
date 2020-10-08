@@ -52,7 +52,8 @@ Simulation
         ``` 
 + 모든 좌표 확인이 끝나면 new_list 를 돌면서 번식시켜준다.
   + 단 그 위치에 이미 번식된 세포가 존재한다면, 그 세포와 비교해서 더 큰 시간을 가지고 있는 세포 값으로 바꿔준다.
-        ``` python
+  
+        ``` python 
         
               for k in new_list:
               if(arr2[k[0]][k[1]]==0): #아직 빈공간이면
@@ -62,6 +63,7 @@ Simulation
                   if arr2[k[0]][k[1]][0]<k[2]: #더 긴 시간을 가지고 있는 세포로 변경해줌
                       arr2[k[0]][k[1]][0] = k[2]
                       arr1[k[0]][k[1]] = k[2]
+                      
         ``` 
 2. main
 + spread(time, N+K+K, M+K+K) 호출
