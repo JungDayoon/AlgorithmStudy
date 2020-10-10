@@ -45,7 +45,7 @@
 
 
 ### :family_man_girl: 일정표
-<pre>
+
 |                                      |                              1                               |                           2                            |                              3                               |                              4                               |                              5                               |
 | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |          1주차(09.21~09.25)          | [무선 충전](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRDL1aeugDFAUo) |    [K번째 수](https://www.acmicpc.net/problem/1300)    | [특이한 자석](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeV9sKkcoDFAVH) |       [쿼드트리](https://www.acmicpc.net/problem/1992)       | [활주로 건설](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeW7FakkUDFAVH) |
@@ -62,7 +62,7 @@
 |          8주차(11.09~11.13)          | [가장 긴 감소하는 부분수열](https://www.acmicpc.net/problem/11722) |     [스티커](https://www.acmicpc.net/problem/9465)     |    [카드 구매하기](https://www.acmicpc.net/problem/11052)    | [N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895) | [정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105) |
 
 * 7주차는 트라이와 이분탐색, 8주차는 DP 문제 위주로 엄선하였습니다.
-</pre>
+
 
 
 
