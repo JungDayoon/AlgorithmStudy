@@ -5,8 +5,6 @@ def isIn(y, x):
 
 N = int(input())
 Map = [[int(x) for x in input().split()] for _ in range(N)]
-pos = [[1, 0], [0, 1], [1, 1]]
-dirInfo = [[0, 2], [1, 2], [0, 1, 2]]
 pipeCnt = [[[0, 0, 0] for _ in range(N)] for _ in range(N)]
 count = 0
 
