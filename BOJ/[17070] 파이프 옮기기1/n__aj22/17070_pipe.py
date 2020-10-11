@@ -2,7 +2,6 @@ N = int(input())
 arr =[]
 for i in range(N):
     arr.append(list(map(int, input().split())))
-arr2 = [[0]*N for _ in range(N)]
 check = [[] * N for _ in range(N)]
 for i in range(N):
     for j in range(N):
