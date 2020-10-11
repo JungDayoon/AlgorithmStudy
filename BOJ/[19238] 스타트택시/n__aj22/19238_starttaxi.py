@@ -1,6 +1,5 @@
 N, M, K = map(int, input().split())
 arr1 = [[0]*N for _ in range(N)]#사람
-arr2 = [[0]*N for _ in range(N)]#도착지
 map1 = [[0]*N for _ in range(N)]
 di = [-1,0,0,1]
 dj = [0,-1,1,0]
@@ -101,6 +100,5 @@ for i in range(M):
     n1, n2, m1, m2 = map(int, input().split())
     person_info.append([m1-1, m2-1])
     arr1[n1-1][n2-1] = i+1
-    arr2[m1-1][m2-1] = i+1
 print(start_taxi(starti, startj, person_info, 1))
 
