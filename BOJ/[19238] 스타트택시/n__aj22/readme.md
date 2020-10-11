@@ -81,5 +81,5 @@ start_taxi(starti, startj, person_info, 1)
 
 ## Review
 
-시간 초과 나서 힘들었지만 그래도 성공! 
+시간 초과 나서 힘들었지만 그래도 성공!   
 
