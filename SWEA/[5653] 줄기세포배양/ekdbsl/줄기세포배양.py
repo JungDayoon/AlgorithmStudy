@@ -10,7 +10,7 @@ def isIn(y, x):
 for t_c in range(1, T+1):
     N, M, K = map(int, input().split())
     initMap = [[[int(x), 0, int(x)] for x in input().split()]for _ in range(N)]
-    cellMap = [[[0,0,0] for _ in range(N+2*K)]for _ in range(N+2*K)]
+    cellMap = [[[0,0,0] for _ in range(M+2*K)]for _ in range(N+2*K)]
     cellList = []
     for i in range(N):
         for j in range(M):
