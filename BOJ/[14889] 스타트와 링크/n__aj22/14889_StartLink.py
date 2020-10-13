@@ -3,13 +3,8 @@ N = int(input())
 min_num = 9999
 arr = []
 half_mem_num = N/2
-dr = [-1,0,1,0]
-dc = [0,1,0,-1]
-visited = [[True]*N for _ in range(N)]
-def inRange(nowr, nowc):
-    if(nowr != nowc and nowr>=0 and nowc>=0 and nowr<N and nowc<N and visited[nowr][nowc]):
-        return True
-    return False
+
+
 def div_team_member(nownum, member_list, prev):
     global min_num
     if(nownum == half_mem_num):
