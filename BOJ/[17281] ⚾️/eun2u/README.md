@@ -8,7 +8,7 @@ DFS, 브루트 포스
 ``` cpp
 void chooseOrder(vector<int> picked, int cnt){
     if(cnt==3){ //1번선수는 4번 타자
-        visited[0]=true;
+        visite**d[0]=true;
         picked.push_back(0);
         chooseOrder(picked,cnt+1);
         visited[0]=false;
