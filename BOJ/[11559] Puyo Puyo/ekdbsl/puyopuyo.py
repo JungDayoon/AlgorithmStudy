@@ -1,7 +1,8 @@
 from collections import deque
 
+
 def isIn(y, x):
-    if 0<= x <6 and 0<=y <12:
+    if 0 <= x < 6 and 0 <= y < 12:
         return True
     return False
 
@@ -28,6 +29,7 @@ def bfs(y, x, type):
 
     return count
 
+
 def removeEmpty():
     for j in range(6):
         list = []
@@ -41,8 +43,9 @@ def removeEmpty():
             puyoMap[last_idx][j] = l
             last_idx -= 1
 
-puyoMap = [[0 for _ in range(6)]for _ in range(12)]
-pos = [[-1,0], [1,0], [0,-1],[0,1]]
+
+puyoMap = [[0 for _ in range(6)] for _ in range(12)]
+pos = [[-1, 0], [1, 0], [0, -1], [0, 1]]
 popCount = 0
 
 for i in range(12):
