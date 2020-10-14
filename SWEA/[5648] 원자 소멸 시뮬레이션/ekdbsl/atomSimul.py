@@ -9,15 +9,15 @@ maxR = 2000
 minR = -2000
 maxC = 2000
 minC = -2000
-pos = [[0,1], [0,-1], [-1,0], [1,0]] # x, y
+pos = [[0, 1], [0, -1], [-1, 0], [1, 0]]  # x, y
 
-for t_c in range(1, T+1):
+for t_c in range(1, T + 1):
     N = int(input())
     atomList = [[int(x) for x in input().split()] for _ in range(N)]
-    atomList = list(map(lambda t: [t[0]*2, t[1]*2, t[2], t[3]], atomList))
+    atomList = list(map(lambda t: [t[0] * 2, t[1] * 2, t[2], t[3]], atomList))
     energy = 0
 
-    while len(atomList) > 0:
+    while len(atomList) > 1:
         removeList = []
         for aItem in atomList:
             aItem[0] += pos[aItem[2]][0]
