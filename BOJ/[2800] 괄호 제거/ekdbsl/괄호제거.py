@@ -1,5 +1,6 @@
 from itertools import combinations
 
+##### 처음에 백트래킹으로 구현했던 부분 #####
 # def solution(prev, Str):
 #     for i in range(prev, len(Str)):
 #         tmpStr = Str[:]
@@ -14,18 +15,15 @@ from itertools import combinations
 #             Str = tmpStr[:]
 #     List.append(''.join(Str))
 
-# def solution(prev, res):
-#     for i in range(prev, len(calculStr)):
-#         if calculStr[i] == '(':
-#             stack.append(i)
-#         elif calculStr[i] == ')':
-#             pair = stack.pop()
-#             res.append(pair)
-#             res.append(i)
-#             solution(i+1, res)
-#             res.pop()
-#             res.pop()
-#     removeList.append(res)
+def makeComb(now, goal, prev, set):
+    if now == goal:
+        comb.append(set[:])
+        return
+    for i in range(prev+1, len(List)):
+        set.append(List[i])
+        makeComb(now+1, goal, i, set)
+        set.pop()
+
 
 def makePair():
     for i in range(len(calculStr)):
@@ -45,7 +43,9 @@ makePair()
 # print(List)
 
 for i in range(1, len(List) + 1):
-    comb = list(combinations(List, i))
+    comb = []
+    makeComb(0, i, -1, [])
+    # comb = list(combinations(List, i))
     for c in comb:
         c = sum(c, [])
         c = sorted(c)
