@@ -10,3 +10,19 @@ Simulation, BFS
 비교할 대상이 바뀌지 않으면 구조체로 정해두는 것이 편하다는 것을 알게되었다.
 
 BFS는 큐가 빌 때까지 확인하면 된다.
+
+<pre>
+공부: Deque 스택과 큐의 기능을 모두 가진 객체
+
+필수 라이브러리: `from collections import deque`
+
+문자열을 이용해 deque를 만들면 각 문자의 요소로 된 리스트 형태의 deque가 만들어진다.
+
+스택처럼 이용하는 경우: append(), pop() //오른쪽에서 입출력
+
+큐처럼 이용하는 경우: appendleft(), popleft() //왼쪽에서 입출력
+
+deque 확장하기: extend() 나의 코드에서는 그냥 덧셈으로 덧붙여주었다, extendleft()
+
+리스트처럼 사용하기: insert(idx, insert_item), remove(items)
+</pre>
