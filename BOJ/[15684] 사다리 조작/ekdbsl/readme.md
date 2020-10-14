@@ -10,7 +10,7 @@
 
 `LadderInfo`: 사다리가 이어져있는 부분의 정보를 저장함. 가로선 두개 사이에 하나의 선이 생기기 때문에 가로길이는 N-1, 세로길이는 H이다.
 
-![image-20201014170452645](C:\Users\Jungdayoon\AppData\Roaming\Typora\typora-user-images\image-20201014170452645.png)
+[image](https://user-images.githubusercontent.com/45536712/95961852-9a0a6380-0e40-11eb-8afd-1f17323b7ba1.png)
 
 이러한 사다리가 있다면, `LadderInfo`에는
 
