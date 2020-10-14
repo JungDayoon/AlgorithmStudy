@@ -14,7 +14,6 @@ def checkPossibility():
                 nowLine += 1
         if nowLine != j:
             return False
-
     return True
 
 
