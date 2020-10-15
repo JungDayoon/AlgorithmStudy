@@ -1,6 +1,6 @@
 new_string_list = []
 string_list = list(input())
-def delete2(delete_list):
+def left(delete_list):
     new_delete_list = []
     global string_list
 
@@ -25,14 +25,14 @@ def delete2(delete_list):
 
     return
 
-def delete(target,now,delete_list, prev):
+def right(target,now,delete_list, prev):
     if(target == now):
-        delete2(delete_list)
+        left(delete_list)
         return
     for i in range(prev, -1, -1):
         if(string_list[i] == ')'):
             delete_list.append(i)
-            delete(target, now+1, delete_list,i-1)
+            right(target, now+1, delete_list,i-1)
             delete_list.pop(-1)
 
 if __name__ == "__main__":
@@ -47,7 +47,7 @@ if __name__ == "__main__":
     check_num = min(left_num, right_num)
 
     for i in range(1, check_num+1):
-        delete(i, 0, [], len(string_list)-1)
+        right(i, 0, [], len(string_list)-1)
     new_string_list.sort()
     new_list = []
     for i in new_string_list:
