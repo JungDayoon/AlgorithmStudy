@@ -56,12 +56,20 @@
 
 |                                      |                              1                               |                           2                            |                              3                               |                              4                               |                              5                               |
 | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|          5주차(10.19~10.23)          |     [테트로미노](https://www.acmicpc.net/problem/14500)      |   [Puyo puyo](https://www.acmicpc.net/problem/11559)   |    [스타트와 링크](https://www.acmicpc.net/problem/14889)    |      [괄호 제거](https://www.acmicpc.net/problem/2800)       |  [이차원배열과 연산](https://www.acmicpc.net/problem/17140)  |
-|          6주차(10.26~10.30)          |     [게리맨더링2](https://www.acmicpc.net/problem/17779)     |     [문제집](https://www.acmicpc.net/problem/1766)     |     [사다리 조작](https://www.acmicpc.net/problem/15684)     |      [게임 개발](https://www.acmicpc.net/problem/1516)       |     [드래곤커브](https://www.acmicpc.net/problem/15685)      |
+|          6주차(10.26~10.30)          |      [Puyo puyo](https://www.acmicpc.net/problem/11559)    |     [문제집](https://www.acmicpc.net/problem/1766)     |     [사다리 조작](https://www.acmicpc.net/problem/15684)     |      [게임 개발](https://www.acmicpc.net/problem/1516)       |      [괄호 제거](https://www.acmicpc.net/problem/2800)     |
 |          7주차(11.02~11.06)          |     [문자열 집합](https://www.acmicpc.net/problem/14425)     |   [숫자카드2](https://www.acmicpc.net/problem/10816)   |    [전화번호 목록](https://www.acmicpc.net/problem/5052)     | [가장 긴 증가하는 부분순열2](https://www.acmicpc.net/problem/12015) | [가사검색](https://programmers.co.kr/learn/courses/30/lessons/60060) |
 |          8주차(11.09~11.13)          | [가장 긴 감소하는 부분수열](https://www.acmicpc.net/problem/11722) |     [스티커](https://www.acmicpc.net/problem/9465)     |    [카드 구매하기](https://www.acmicpc.net/problem/11052)    | [N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895) | [정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105) |
+|          9주차(11.16~11.20)          |          |       |        |         |      |
 
-* 7주차는 트라이와 이분탐색, 8주차는 DP 문제 위주로 엄선하였습니다.
+* 5주차는 쉬어가는 주 입니다. 각자 기출을 풀거나 밀린 문제들 완료 합시다!!
+* 6주차는 트라이와 이분탐색, 8주차는 DP 문제 위주로 엄선하였습니다.
+
+|                                      |                              1                               |                           2                            |                              3                               |                              4                               |                              5                               |
+| :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|          삼성기출(10.19~10.23)          |     [테트로미노](https://www.acmicpc.net/problem/14500)      |   [게리맨더링2](https://www.acmicpc.net/problem/17779)   |    [스타트와 링크](https://www.acmicpc.net/problem/14889)    |      [드래곤커브](https://www.acmicpc.net/problem/15685)    |  [이차원배열과 연산](https://www.acmicpc.net/problem/17140)  |
+
+* 삼성 코테 대비 기출문제입니다.  
+
 
 
 
