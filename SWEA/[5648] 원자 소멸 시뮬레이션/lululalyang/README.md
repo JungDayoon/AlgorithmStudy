@@ -45,6 +45,23 @@
       ```
 
   * 다시 각 원자를 돌면서 원자의 위치가 `check`에 존재하면 충돌이 일어난 거니까 현재 원자의 에너지(`A[i].k`)를 `result` 에 더해주고, `map`의 값을 `-1`하고 현재 원자를 `A`에서 제거한다. 
+  
+    > :star:JAVA 
+    >
+    > - 배열으로 이루어진 리스트 (예: `ArrarList<int []> tmp`)의 경우 `tmp.contains()`는 안됨.
+    >
+    > - `for`문을 이용해 각각의 배열을 비교해 주어야 한다!
+    >
+    >   ```java
+    >   for(int i=0; i<A.size(); i++) {
+    >   	int[] Aloc = new int[] {A.get(i).y, A.get(i).x};
+    >       for(int[] tmp: check) {
+    >   		if(Arrays.equals(Aloc, tmp)) {
+    >        		. . .
+    >        	}
+    >       }
+    >   }
+    >   ```
 
 ## :speaking_head:
 
