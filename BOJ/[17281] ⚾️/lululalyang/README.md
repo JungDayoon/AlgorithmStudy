@@ -43,13 +43,15 @@
   * `int[] base = new int[] {-1, -1, -1, -1}`
 
     : index`0`은 홈, `1`은 1루, `2`는 2루, `3`은 3루에 있는 주자를 저장한다.
+
     값이 `-1`이라면 아무도 없는 것
 
   * 각 선수가 얻은 결과(`ball`)에 따라 `thisScore`를 계산.
 
     `ball = 0`이면 `out++`
-    `out  == 3`이면 `while`문 종료 후 최종점수의 최대값 구한다.
-
+    
+  `out  == 3`이면 `while`문 종료 후 최종점수의 최대값 구한다.
+    
     </br>
 
 * `int Score(int ball, int[] base, int thisTurn)`
