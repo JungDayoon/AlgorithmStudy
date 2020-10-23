@@ -12,35 +12,6 @@ for i in range(M):
         visited[start-1][end-2] = False
     if(end<N-1):
         visited[start-1][end] = False
-def isIn(nowr, nowc):
-    #print(nowr, nowc)
-    if(arr[nowr][nowc] == 0 and visited[nowr][nowc]):
-        flag = 1
-        if(nowc!=0):
-            if(arr[nowr][nowc-1] == 0):
-                flag = 1
-            else:
-                flag = 0
-        if(nowc!=N-2):
-            if(arr[nowr][nowc+1] == 0):
-                flag = 1
-            else:
-                flag = 0
-        if(flag == 1):
-            return True
-    return False
-def make_ladder(nowcol,now_num, target_num, prev, num_list):
-    if(now_num == target_num):
-        temp_list = list(num_list)
-        combi_list.append(temp_list)
-        return 1
-    for i in range(prev,H):
-        if i not in num_list:
-            if isIn(i, nowcol):
-                num_list.append(i)
-                make_ladder(nowcol, now_num+1, target_num, i+1, num_list)
-                num_list.pop(-1)
-    return
 def check():
     for i in range(0,N-1):
         now_num = i
@@ -56,54 +27,53 @@ def check():
             return False
     return True
 
-
-
-def backtracking(now_C, num):
+def backtracking(now_num, target, prevx, prevy):
     global min_num
-    global combi_list
-    if (num > 3):
-        return
-    if(now_C == N-1):
+    if(now_num == target):
         if(check()):
-            if(num == 0):
-                print(0)
-                exit()
-            # for i in arr:
-            #     print(i)
-            # print()
-            min_num = min(min_num, num)
+            print(target)
+            exit()
         return
+    if(prevx != len(arr[0])):
+        for i in range(prevx, len(arr[0])):
+            if(visited[prevy][i]):
+                arr[prevy][i] = 1
+                visited[prevy][i] = False
+                if(i>0):
+                    temp1 = visited[prevy][i-1]
+                    visited[prevy][i-1] = False
+                if(i<N-2):
+                    temp2 = visited[prevy][i+1]
+                    visited[prevy][i+1] = False
+                backtracking(now_num+1, target, i+1, prevy)
+                arr[prevy][i] = 0
+                visited[prevy][i] = True
+                if(i>0):
+                    visited[prevy][i-1] = temp1
+                if(i<N-2):
+                    visited[prevy][i+1] = temp2
+    prevx = 0
+    if(prevy+1 == len(arr)):
+        return
+    for i in range(prevy+1, len(arr)):
+        for j in range(0, len(arr[0])):
+            if(visited[i][j]):
+                arr[i][j] = 1
+                visited[i][j] = False
+                if(j>0):
+                    temp1 = visited[i][j-1]
+                    visited[i][j-1] = False
+                if(j<N-2):
+                    temp2 = visited[i][j+1]
+                    visited[i][j+1] = False
+                backtracking(now_num+1, target, j+1, i)
+                arr[i][j] = 0
+                visited[i][j] = True
+                if(j>0):
+                    visited[i][j-1] = temp1
+                if(j<N-2):
+                    visited[i][j+1] = temp2
 
-    check_sum = 0
-    for i in range(H):
-        check_sum+=arr[i][now_C]
-
-    target_num = check_sum + check_sum%2 #작거나 같은 짝수를 찾아준다.
-    while(True):
-        if(target_num > H):
-            break
-        combi_list = []
-        make_ladder(now_C, 0, target_num-check_sum, 0, [])
-        for i in combi_list:
-            for j in i:
-                arr[j][now_C] = 1
-                visited[j][now_C] = False
-                if(now_C>0):
-                    visited[j][now_C-1] = False
-                if(now_C<N-2):
-                    visited[j][now_C+1] = False
-            backtracking(now_C+1, num+len(i))
-            for j in i:
-                arr[j][now_C] = 0
-                visited[j][now_C] = True
-                if (now_C > 0):
-                    visited[j][now_C - 1] = True
-                if (now_C < N - 2):
-                    visited[j][now_C + 1] = True
-        target_num+=2
-
-backtracking(0, 0)
-if(min_num == 5):
-    print(-1)
-else:
-    print(min_num)
+for i in range(4):
+    backtracking(0, i, 0, 0)
+print(-1)
