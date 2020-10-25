@@ -23,7 +23,7 @@
 
   => `ArrayList<ArrayList<Integer>> c`에 저장 (지워야하는 괄호쌍의 index)
 
-* `c`를 돌면서, 그에 해당하는 괄호쌍을 지워주고(`void DeleteBracket()`) 그 결과값의 수식을 `hashSet`에 저장한다.
+* `c`를 돌면서, 그에 해당하는 괄호쌍을 지워주고(`void DeleteBracket()`) 그 결과값의 수식을 `treeSet`에 저장한다.
 
   * `void DeleteBracket(char[] cArr, ArrayList<Integer> ctmp, ArrayList<Integer> open, ArrayList<Integer> close)`
 
