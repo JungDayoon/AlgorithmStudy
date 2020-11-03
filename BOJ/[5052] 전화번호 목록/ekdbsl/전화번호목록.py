@@ -20,44 +20,8 @@ class Trie(object):
             if curr_node.data is not None:
                 return False
 
-
         curr_node.data = string
         return True
-
-    def search(self, string):
-        curr_node = self.head
-
-        for char in string:
-            if char in curr_node.children:
-                curr_node = curr_node.children[char]
-            else:
-                return False
-
-        if curr_node.data is not None:
-            return True
-
-    def starts_with(self, prefix):
-        curr_node = self.head
-        result = []
-        subtrie = None
-
-        for char in prefix:
-            if char in curr_node.children:
-                curr_node = curr_node.children[char]
-                subtrie = curr_node
-            else:
-                return None
-
-        queue = list(subtrie.children.values())
-
-        while queue:
-            curr = queue.pop(0)
-            if curr.data != None:
-                result.append(curr.data)
-
-            queue += list(curr.children.values())
-
-        return result
 
 
 t = int(input())
