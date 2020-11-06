@@ -18,7 +18,6 @@ class Trie(object):
             curr_node = curr_node.children[char]
 
         curr_node.data = string
-        return True
 
     def search(self, string):
         curr_node = self.head
