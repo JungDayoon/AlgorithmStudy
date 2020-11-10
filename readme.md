@@ -59,10 +59,11 @@
 |        6주차(10.26~10.30)          |      [Puyo puyo](https://www.acmicpc.net/problem/11559)    |     [문제집](https://www.acmicpc.net/problem/1766)     |     [사다리 조작](https://www.acmicpc.net/problem/15684)     |      [게임 개발](https://www.acmicpc.net/problem/1516)       |      [괄호 제거](https://www.acmicpc.net/problem/2800)     |
 |          7주차(11.02~11.06)          |     [문자열 집합](https://www.acmicpc.net/problem/14425)     |   [숫자카드2](https://www.acmicpc.net/problem/10816)   |    [전화번호 목록](https://www.acmicpc.net/problem/5052)     | [LIS2](https://www.acmicpc.net/problem/12015) | [가사검색](https://programmers.co.kr/learn/courses/30/lessons/60060) |
 |          8주차(11.09~11.13)          | [LDS](https://www.acmicpc.net/problem/11722) |     [스티커](https://www.acmicpc.net/problem/9465)     |    [카드 구매하기](https://www.acmicpc.net/problem/11052)    | [N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895) | [정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105) |
-|          9주차(11.16~11.20)          |          |       |        |         |      |
+|          9주차(11.16~11.20)          |     [해킹](https://www.acmicpc.net/problem/10282)     |   [지름길](https://www.acmicpc.net/problem/1446)   |    [그대, 그머가 되어](https://www.acmicpc.net/problem/14496)    |    [민준이와 마산 그리고 건우](https://www.acmicpc.net/problem/18223)    |   [지각하면 안 돼](https://www.acmicpc.net/problem/12763)   |
 
 * 4주차는 쉬어가는 주 입니다. 각자 기출을 풀거나 밀린 문제들 완료 합시다!!
 * 6주차는 위상정렬과 시뮬레이션, 7주차는 트라이와 이분탐색, 8주차는 DP 문제 위주로 엄선하였습니다.
+* 9주차: 다익스트라
 
 |                                      |                              1                               |                           2                            |                              3                               |                              4                               |                              5                               |
 | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
