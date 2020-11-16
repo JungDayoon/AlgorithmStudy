@@ -19,5 +19,5 @@ graph 구성까지는 내가 구현하고 힙을 계산하는 방식은 찾아�
 
 시간을 우선순위로 두고 한 번 지나가면 뒤돌아보지 않는 이 방법이 이 문제에 맞는 해결법이라고 생각한다.
 
-다익스트라 연습문제: [특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352)
 </pre>
+오늘 푼 다익스트라 연습문제(paracticeDijstra.py): [특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352)
