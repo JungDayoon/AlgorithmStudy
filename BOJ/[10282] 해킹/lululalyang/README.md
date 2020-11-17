@@ -10,7 +10,7 @@
 
 * *우선순위 큐*(`PriorityQueue`)를 사용해 다익스트라를 구현
 
-  * 우선순위 큐에 담을 객체 `Edge`를 만들어 줄 때, ** `Comparable<Edge>`를 `implements` **한다.
+  * 우선순위 큐에 담을 객체 `Edge`를 만들어 줄 때, `Comparable<Edge>`를 `implements`한다.
 
     (**어떤 기준으로 우선순위를 결정할지 설정**해준다)
 
