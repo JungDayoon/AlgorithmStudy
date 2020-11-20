@@ -9,8 +9,8 @@ pq = []
 
 for _ in range(E):
     a, b, c = map(int, input().split())
-    adj[a-1].append([b-1, c])
-    adj[b-1].append([a-1, c])
+    adj[a - 1].append([b - 1, c])
+    adj[b - 1].append([a - 1, c])
 
 dist[0] = 0
 heapq.heappush(pq, (0, 0))  # distance, node num
@@ -26,8 +26,8 @@ while pq:
 
 pq = []
 dist2 = [inf for _ in range(V)]
-dist2[P-1] = 0
-heapq.heappush(pq, (0, P-1))
+dist2[P - 1] = 0
+heapq.heappush(pq, (0, P - 1))
 
 while pq:
     curr = heapq.heappop(pq)
@@ -40,7 +40,7 @@ while pq:
 
 # print(dist)
 # print(dist2)
-if dist[P-1] + dist2[V-1] <= dist[V-1]:
+if dist[P - 1] + dist2[V - 1] <= dist[V - 1]:
     print("SAVE HIM")
 else:
     print("GOOD BYE")
