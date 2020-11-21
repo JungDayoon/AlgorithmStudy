@@ -50,7 +50,6 @@ while pq:
             Time[Next.num] = curr.time + Next.time
             heapq.heappush(pq, Node(Price[Next.num], Next.num, Time[Next.num]))
         else:
-            # if curr.time + Next.time <= T and curr.price + Next.price <= M:
             heapq.heappush(pq, Node(curr.price + Next.price, Next.num, curr.time + Next.time))
 
 print(Price[N-1] if Price[N-1] <= M else -1)
