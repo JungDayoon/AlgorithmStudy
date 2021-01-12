@@ -81,7 +81,7 @@
 | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |          11주차(1.18~1.22)          |     [벽돌깨기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRQm6qfL0DFAUo)      |   [핀볼게임](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRF8s6ezEDFAUo)   |    [보물상자비밀번호](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRUN9KfZ8DFAUo)    |      [내리막길](https://www.acmicpc.net/problem/1520)    |  [합분해](https://www.acmicpc.net/problem/2225)  |
 |          12주차(1.25~1.29)          |     [말이되고픈원숭이](https://www.acmicpc.net/problem/1600)      |   [색종이 올려놓기](https://www.acmicpc.net/problem/2643)   |    [주사위윷놀이](https://www.acmicpc.net/problem/17825)    |      [소문난칠공주](https://www.acmicpc.net/problem/1941)    |  [진우의 민트초코우유](https://www.acmicpc.net/problem/20208)  |
-|          13주차(2.1~2.5)          |     [강의실배정](https://www.acmicpc.net/problem/11000)      |   [줄세우기](https://www.acmicpc.net/problem/7570)   |    [문자열폭발](https://www.acmicpc.net/problem/9935)    |      [소문난칠공주](https://www.acmicpc.net/problem/1941)    |  [진우의 민트초코우유](https://www.acmicpc.net/problem/20208)  |
+|          13주차(2.1~2.5)          |     [강의실배정](https://www.acmicpc.net/problem/11000)      |   [줄세우기](https://www.acmicpc.net/problem/7570)   |    [문자열폭발](https://www.acmicpc.net/problem/9935)    |      [행렬 제곱](https://www.acmicpc.net/problem/10830)    |  [가르침](https://www.acmicpc.net/problem/1062)  |
 
 
 
