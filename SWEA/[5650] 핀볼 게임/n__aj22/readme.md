@@ -14,11 +14,9 @@ Simulation
 
 + `def choose(arr, wormhole_info)` : 전체 arr 에서 핀볼을 놓을 수 있는 곳을 정하는 함수이다. 위치를 정하면 위, 아래, 오른쪽, 왼쪽 4방향으로 start, 혹은 start2 를 호출한다.
 
-+ `def start(arr, nowx, nowy, startx, starty, count, direction, wormhole_info, startflag)` :
++ `def start(arr, nowx, nowy, startx, starty, count, direction, wormhole_info, startflag)` : 이동한 블록의 번호를 고려해서 다음 방향으로 이동시킨 후 start를 재귀적으로 호출한다.
 
 + `def start2(arr, nowx, nowy, startx, starty, count, direction, wormhole_info, startflag)` : 위 함수와 로직 동일, 반복문으로 구현
-
-
 
 ## Review
 
