@@ -1,5 +1,5 @@
-import sys
-sys.stdin = open("/Users/najihye/algo2/SWEA/[5658] 보물상자 비밀번호/n__aj22/sample.txt", "r")
+# import sys
+# sys.stdin = open("/Users/najihye/algo2/SWEA/[5658] 보물상자 비밀번호/n__aj22/sample.txt", "r")
 
 T = int(input())
 def turn_arr(arr):
