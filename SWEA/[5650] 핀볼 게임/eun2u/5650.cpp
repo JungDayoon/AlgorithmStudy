@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <cstring>
 #include <utility>
 #include <algorithm>
 
@@ -8,7 +9,10 @@ int N;
 int map[101][101];
 int dy[4]={0,1,0,-1};
 int dx[4]={1,0,-1,0};
-vector< pair<int,int> > warmhall[11];
+int blockdir[6][4]={{-1,-1,-1,-1},
+    {2,0,3,1},{2,3,1,0},{1,3,0,2},{3,2,0,1},{2,3,0,1}
+};
+vector< pair<int,int> > wormhall[11];
 
 bool inRange(int y, int x){
     if(y<0 || y>N) return false;
@@ -17,30 +21,6 @@ bool inRange(int y, int x){
 }
 int reverseDir(int dir){
     return ((dir+2)%4);
-}
-int blockDir(int b, int dir){
-    if(b==1){
-        if(dir==1) return 0;
-        else if(dir==2) return 3;
-        else return reverseDir(dir);
-    }
-    else if(b==2){
-        if(dir==3) return 0;
-        else if(dir==2) return 1;
-        else return reverseDir(dir);
-    }
-    else if(b==3){
-        if(dir==0) return 1;
-        else if(dir==3) return 2;
-        else return reverseDir(dir);
-    }
-    if(b==4){
-        if(dir==0) return 3;
-        else if(dir==1) return 2;
-        else return reverseDir(dir);
-    }
-    else if(b==5)
-        return reverseDir(dir);
 }
 int startBall(int y, int x,int dir){
     int ret=0;
@@ -63,17 +43,17 @@ int startBall(int y, int x,int dir){
         if(bnum==-1) break;
 
         if(bnum>=1 && bnum<=5){
-            dir=blockDir(bnum,dir);
+            dir=blockdir[bnum][dir];
             ret++;
         }
         else if(bnum>=6 && bnum<=10){
             int idx;
-            if(warmhall[bnum][0].first==ny && warmhall[bnum][0].second==nx)
+            if(wormhall[bnum][0].first==ny && wormhall[bnum][0].second==nx)
                 idx=1;
             else idx=0;
             
-            ny=warmhall[bnum][idx].first;
-            nx=warmhall[bnum][idx].second;
+            ny=wormhall[bnum][idx].first;
+            nx=wormhall[bnum][idx].second;
         }
 
         y=ny, x=nx;
@@ -87,14 +67,14 @@ int main(){
         cin>>N;
         memset(map,0,sizeof(map));
         for(int i=0;i<11;i++)
-            warmhall[i].clear();
+            wormhall[i].clear();
 
         for(int i=0;i<N;i++)
             for(int j=0;j<N;j++){
                 cin>>map[i][j];
                 
                 if(map[i][j]>=6 || map[i][j]<=10)
-                    warmhall[map[i][j]].push_back(make_pair(i,j));
+                    wormhall[map[i][j]].push_back(make_pair(i,j));
             }
 
         int ans=0;
