@@ -49,13 +49,6 @@ def isin(x, y):
         return True
     else:
         return False
-def count_num(arr):
-    count=0
-    for i in arr:
-        if(arr[i]==1):
-            count+=1
-
-    return count
 
 if __name__ == "__main__":
     print(solution("LULLLLLLU"))
