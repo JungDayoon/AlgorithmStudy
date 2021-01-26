@@ -7,8 +7,7 @@ public class _2643 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(br.readLine());
-		int[][] paper = new int[N][2]; // 가로, 세로 길이, 위에 올라갈 수 있는 종이 개수
-		
+		int[][] paper = new int[N][2]; 		
 		for(int i=0; i<N; i++) {
 			String[] s = br.readLine().split(" ");
 			for(int j=0; j<2; j++) {
