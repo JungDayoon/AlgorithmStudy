@@ -20,9 +20,6 @@ def check(y, x):
         nexty = y + dy[i]
         if(isin(nextx, nexty) and stu_map[nexty][nextx] and temp[nexty][nextx]==False):
             check(nexty, nextx)
-
-
-
 def backtracking(cnt, now_dir, Scnt, Ycnt):
     if(Ycnt > 3):
         return
@@ -55,16 +52,9 @@ def backtracking(cnt, now_dir, Scnt, Ycnt):
 
             stu_map[i//5][i%5] = False
             visited[i] = False
-    
-
-    
-
-
-
 
 if __name__ == "__main__":
     student = []
-
     for i in range(5):
         student.append(list(input()))
     backtracking(0, 0, 0, 0)
