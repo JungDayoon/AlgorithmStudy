@@ -1,4 +1,5 @@
 import heapq
+
 inf = 999999
 
 
@@ -23,12 +24,7 @@ def solution(N, road, K):
                 dist[next[0]] = curr[0] + next[1]
                 heapq.heappush(pq, (dist[next[0]], next[0]))
 
-    count = 0
-    for d in dist:
-        if d <= K:
-            count += 1
-
-    return count
+    return list(map(lambda t: t <= K, dist)).count(True)
 
 
 print(solution(5, [[1, 2, 1], [2, 3, 3], [5, 2, 2], [1, 4, 2], [5, 3, 1], [5, 4, 2]], 3))
