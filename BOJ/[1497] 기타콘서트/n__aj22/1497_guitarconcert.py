@@ -29,7 +29,7 @@ def backtracking(target_num, choose_list, index):
         return
     for i in range(index, N):
         choose_list.append(i)
-        backtracking(target_num, choose_list, i)
+        backtracking(target_num, choose_list, i+1)
         choose_list.pop(-1)
         if(is_M == True):
             break
