@@ -24,6 +24,7 @@ BFS를 두 번 해준다.
 + check_island를 호출하고 난 후에는 다음 처럼 바뀐다.
 
     <img src="https://user-images.githubusercontent.com/33089715/107868931-028b4f00-6ecc-11eb-893d-43f0cd54a1b1.png" width="350">
+    
     + 같은 섬 끼리 같은 index를 가지고, index의 최대 값이 섬의 개수이다.
 
 `make_bridge(index)` : index 번호에 해당하는 섬에서 시작하는 다리를 BFS로 만들어 준다.
