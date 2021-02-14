@@ -25,6 +25,21 @@
 
     + 이 때 방향으로 갈 확률을 현재까지의 확률에 곱해서 호출 해준다.
 
+**주의**
++ 원래 처음에는 로봇의 경로를 리스트에 추가해주고, 리스트에 존재하는지 여부를 방문 여부로 사용했다.
+    ```python
+    robot.append([nexty, nextx])
+    #backtracking 호출
+    robot.pop(-1)
+    ```
+    이 방법도 결과는 같아 보였으나 시간 초과가 났다.
++ 다음 시도한 방법은 visited 배열을 두고 방문 표시를 해주었다.
+    ```python
+    visited[nexty][nextx] = True
+    #backtracking 호출
+    visited[nexty][nextx] = False
+    ```
+    시간초과가 나지 않았다!
 ## Review
 
 간단한 백트래킹 문제
