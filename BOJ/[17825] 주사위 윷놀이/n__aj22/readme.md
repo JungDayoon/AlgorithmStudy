@@ -8,7 +8,8 @@ Backtracking
 1. `def set_board()` : 윷놀이 판을 만드는 함수, 제일 처음에 한번 호출해준다.
     + 만들어진 윷놀이 판은 board 에 2차원 배열로 저장한다.
     + 이 후에 board_type 변수를 사용하는데, board_type = n 이면 board[n] 판을 사용한다.
-    ![image](https://user-images.githubusercontent.com/33089715/105950588-fb81d580-60b1-11eb-87ee-0bbc12768ac8.png)
+
+      <img src="https://user-images.githubusercontent.com/33089715/105950588-fb81d580-60b1-11eb-87ee-0bbc12768ac8.png" width="500">
 
 
 2. `def horse_next_move(board_type, now_point, move)` : 말을 이동시키는 함수, 이동시킨 후 나온 board_type과 point(점수)를 return 한다.
