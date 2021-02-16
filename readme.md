@@ -32,7 +32,7 @@
 
 ###  :family_man_girl: Contributors
 
-> [ekdbsl](https://github.com/JungDayoon)
+> [ekdbsl](https://github.com/JungDayoon) (알고리즘 스터디 졸업👩‍🎓 )
 >
 > [eun2u](https://github.com/eun2u)
 >
