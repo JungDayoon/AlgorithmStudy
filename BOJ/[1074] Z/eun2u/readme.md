@@ -8,9 +8,12 @@
 ## 접근법
 > 2^N × 2^N인 2차원 배열을 Z모양으로 탐색하려고 할때 r,c 위치는 몇번째 방문하는지 구하는 문제!
 </br>
+
 - 2^15 *2^15 크기 배열 만들어서 순차적으로 탐색하며 값 저장을 하게되면,
+
     * 시간초과가 뜨기 때문에
     * 구역 나누어서 각 구역의 최소값부터 훑어야한다
+    
 - `whichDistrict(int sy, int sx, int len)` : 시작 지점 (sy,sx)에 가로 세로 길이가 Len인 사각형에서 r,c 가 존재하는 구역 return
 - `goZ(int sy, int sx, int val, int len, int depth)` : 시작지점(sy,sx)에 가로세로 길이가 len인 사각형에서 arr[sy][sx]는 val 번째 방문을 하고, 재귀호출 깊이 depth. 
 
