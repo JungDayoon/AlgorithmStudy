@@ -63,14 +63,18 @@
 | 13주차(02.15~02.19) |     [Z](https://www.acmicpc.net/problem/1074)      |   [벽부수고이동하기](https://www.acmicpc.net/problem/2206)   |    [다리만들기](https://www.acmicpc.net/problem/2146)    |      [미친 로봇](https://www.acmicpc.net/problem/1405)    |  [기타콘서트](https://www.acmicpc.net/problem/1497)  |
 | 14주차(02.22~02.26) |     [최소 스패닝 트리](https://www.acmicpc.net/problem/1197)      |   [도시 분할 계획](https://www.acmicpc.net/problem/1647)   |    [행성 연결](https://www.acmicpc.net/problem/16398)    |      [전력난](https://www.acmicpc.net/problem/6497)    |  [우주신과의 교감](https://www.acmicpc.net/problem/1774)  |
 | 15주차(03.01~03.05) |     [타일 채우기](https://www.acmicpc.net/problem/2133)      |   [동물원](https://www.acmicpc.net/problem/1309)   |    [전깃줄](https://www.acmicpc.net/problem/2565)    |      [내려가기](https://www.acmicpc.net/problem/2096)    |  [줄어들지 않아](https://www.acmicpc.net/problem/2688)  |
-| 15주차(03.01~03.05) |     [Z](https://www.acmicpc.net/problem/1074)      |   [벽부수고이동하기](https://www.acmicpc.net/problem/2206)   |    [다리만들기](https://www.acmicpc.net/problem/2146)    |      [미친 로봇](https://www.acmicpc.net/problem/1405)    |  [기타콘서트](https://www.acmicpc.net/problem/1497)  |
-| 16주차(03.08~03.12) |     [Z](https://www.acmicpc.net/problem/1074)      |   [벽부수고이동하기](https://www.acmicpc.net/problem/2206)   |    [다리만들기](https://www.acmicpc.net/problem/2146)    |      [미친 로봇](https://www.acmicpc.net/problem/1405)    |  [기타콘서트](https://www.acmicpc.net/problem/1497)  |
-| 16주차(03.08~03.12) |     [Z](https://www.acmicpc.net/problem/1074)      |   [벽부수고이동하기](https://www.acmicpc.net/problem/2206)   |    [다리만들기](https://www.acmicpc.net/problem/2146)    |      [미친 로봇](https://www.acmicpc.net/problem/1405)    |  [기타콘서트](https://www.acmicpc.net/problem/1497)  |
-* 6주차: 위상정렬과 시뮬레이션
-* 7주차: 트라이와 이분탐색 
-* 8주차: DP 문제 위주로 엄선하였습니다.
-* 9주차: 다익스트라
-* 10주차: 프로그래머스 Summer/Winter Coding
+| 15주차(03.01~03.05) |     [다리 만들기 2](https://www.acmicpc.net/problem/17472)      |   [퍼즐](https://www.acmicpc.net/problem/1525)   |    [구슬 탈출](https://www.acmicpc.net/problem/13459)    |      [Maaaaaaaaaze](https://www.acmicpc.net/problem/16985)    |  [연구소 2](https://www.acmicpc.net/problem/17141)  |
+| 16주차(03.08~03.12) |     [트리](https://www.acmicpc.net/problem/1068)      |   [상근이의 여행](https://www.acmicpc.net/problem/9372)   |    [LCA](https://www.acmicpc.net/problem/11437)    |      [트리의 지름](https://www.acmicpc.net/problem/1967)    |  [전단지 돌리기](https://www.acmicpc.net/problem/19542)  |
+| 16주차(03.08~03.12) |     [뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677)      |   [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680)   |    [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679)    |      [오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888)    |  [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890)  |
+* 5주차: 위상정렬과 시뮬레이션
+* 6주차: 트라이, 이분탐색 
+* 7주차: DP 문제 
+* 8주차: 다익스트라
+* 9주차: 프로그래머스 Summer/Winter Coding
+* 14주차: 최소 스패닝 트리
+**15주차부터는 하루에 2개씩 풀도록 합니다**
+* 15주차: DP, BFS
+* 16주차: 트리, 프로그래머스 카카오 2018,2019 Blind Recruitment level2
 
 
 
