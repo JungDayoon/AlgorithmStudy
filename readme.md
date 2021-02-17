@@ -61,7 +61,14 @@
 | 11주차(01.25~01.29) |     [말이되고픈원숭이](https://www.acmicpc.net/problem/1600)      |   [색종이 올려놓기](https://www.acmicpc.net/problem/2643)   |    [주사위윷놀이](https://www.acmicpc.net/problem/17825)    |      [소문난칠공주](https://www.acmicpc.net/problem/1941)    |  [진우의 민트초코우유](https://www.acmicpc.net/problem/20208)  |
 | 12주차(02.01~02.05) |     [강의실배정](https://www.acmicpc.net/problem/11000)      |   [줄세우기](https://www.acmicpc.net/problem/7570)   |    [문자열폭발](https://www.acmicpc.net/problem/9935)    |      [행렬 제곱](https://www.acmicpc.net/problem/10830)    |  [가르침](https://www.acmicpc.net/problem/1062)  |
 | 13주차(02.15~02.19) |     [Z](https://www.acmicpc.net/problem/1074)      |   [벽부수고이동하기](https://www.acmicpc.net/problem/2206)   |    [다리만들기](https://www.acmicpc.net/problem/2146)    |      [미친 로봇](https://www.acmicpc.net/problem/1405)    |  [기타콘서트](https://www.acmicpc.net/problem/1497)  |
-* 6주차는 위상정렬과 시뮬레이션, 7주차는 트라이와 이분탐색, 8주차는 DP 문제 위주로 엄선하였습니다.
+| 14주차(02.22~02.26) |     [최소 스패닝 트리](https://www.acmicpc.net/problem/1197)      |   [도시 분할 계획](https://www.acmicpc.net/problem/1647)   |    [행성 연결](https://www.acmicpc.net/problem/16398)    |      [전력난](https://www.acmicpc.net/problem/6497)    |  [우주신과의 교감](https://www.acmicpc.net/problem/1774)  |
+| 15주차(03.01~03.05) |     [타일 채우기](https://www.acmicpc.net/problem/2133)      |   [동물원](https://www.acmicpc.net/problem/1309)   |    [전깃줄](https://www.acmicpc.net/problem/2565)    |      [내려가기](https://www.acmicpc.net/problem/2096)    |  [줄어들지 않아](https://www.acmicpc.net/problem/2688)  |
+| 15주차(03.01~03.05) |     [Z](https://www.acmicpc.net/problem/1074)      |   [벽부수고이동하기](https://www.acmicpc.net/problem/2206)   |    [다리만들기](https://www.acmicpc.net/problem/2146)    |      [미친 로봇](https://www.acmicpc.net/problem/1405)    |  [기타콘서트](https://www.acmicpc.net/problem/1497)  |
+| 16주차(03.08~03.12) |     [Z](https://www.acmicpc.net/problem/1074)      |   [벽부수고이동하기](https://www.acmicpc.net/problem/2206)   |    [다리만들기](https://www.acmicpc.net/problem/2146)    |      [미친 로봇](https://www.acmicpc.net/problem/1405)    |  [기타콘서트](https://www.acmicpc.net/problem/1497)  |
+| 16주차(03.08~03.12) |     [Z](https://www.acmicpc.net/problem/1074)      |   [벽부수고이동하기](https://www.acmicpc.net/problem/2206)   |    [다리만들기](https://www.acmicpc.net/problem/2146)    |      [미친 로봇](https://www.acmicpc.net/problem/1405)    |  [기타콘서트](https://www.acmicpc.net/problem/1497)  |
+* 6주차: 위상정렬과 시뮬레이션
+* 7주차: 트라이와 이분탐색 
+* 8주차: DP 문제 위주로 엄선하였습니다.
 * 9주차: 다익스트라
 * 10주차: 프로그래머스 Summer/Winter Coding
 
