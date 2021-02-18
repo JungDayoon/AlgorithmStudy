@@ -26,6 +26,8 @@ BFS
 
     + `answer[y][x][1]` 일 때는 벽을 부순 상태에서의 거리를 저장
 
++ `findroad()`함수 호출 후 `answer[N-1][M-1][0]`의 값과 `answer[N-1][M-1][1]` 값을 비교해 최소값을 출력해주거나 혹은 -1이 아닌 값을 출력해준다. (둘 다 -1이라면 -1 출력)
+
 `findroad()` : BFS를 하면서 거리를 answer에 저장해주는 함수
 
 + queue에는 `[y, x, is_break]`를 저장해준다.
@@ -57,6 +59,21 @@ BFS
                     answer[nexty][nextx][is_break+1] = answer[nowy][nowx][is_break]+1
                     queue.append([nextx, nexty, is_break+1])
             ```
+
+**예시**
++ 다음과 같은 길이 있다고 하자 
+
+    <img src="https://user-images.githubusercontent.com/33089715/108348773-8d9a7b00-7225-11eb-8fb6-eace0fce1ab3.png" width="350">
+
++ answer[y][x][0]
+
+    <img src="https://user-images.githubusercontent.com/33089715/108348972-c5a1be00-7225-11eb-80bd-e603f4e2c225.png" width="350">
+
++ answer[y][x][1]
+
+    <img src="https://user-images.githubusercontent.com/33089715/108348977-c76b8180-7225-11eb-9b61-bac864dad33b.png" width="350">
+
++ 답은 18과 14중 작은 값인 14
 ## Review
 
 BFS라 쉬울줄 알았는데 어려웠다..ㅎㅎ
