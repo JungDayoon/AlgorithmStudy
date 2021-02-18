@@ -35,6 +35,7 @@ if __name__ == "__main__":
         print(answer[endy][endx][1])
     elif(answer[endy][endx][1]== -1):
         print(answer[endy][endx][0])
+    
 
 
     
