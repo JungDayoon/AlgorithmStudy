@@ -12,7 +12,7 @@ BFS
 
 **코드설명**
 
-`main` :
+`*main*` :
     
 + road_map : 길을 저장해주는 배열
 
@@ -28,7 +28,7 @@ BFS
 
 + `findroad()`함수 호출 후 `answer[N-1][M-1][0]`의 값과 `answer[N-1][M-1][1]` 값을 비교해 최소값을 출력해주거나 혹은 -1이 아닌 값을 출력해준다. (둘 다 -1이라면 -1 출력)
 
-`findroad()` : BFS를 하면서 거리를 answer에 저장해주는 함수
+`*findroad()*` : BFS를 하면서 거리를 answer에 저장해주는 함수
 
 + queue에는 `[y, x, is_break]`를 저장해준다.
 
@@ -42,7 +42,7 @@ BFS
 
     + 이동할 위치에 현재 is_break상태로 방문한적이 없고, 이동할 위치가 '0'일 때(길일 때)
         
-        + answer의 이동할 위치, is_break에 현재 위치, is_break 값에 + 1한 값을 넣어준다.
+        + `answer의 이동할 위치, is_break`에 `answer의 현재 위치, is_break` 값의 + 1한 값을 넣어준다.
 
             ```python
             if(answer[nexty][nextx][is_break] == -1 and road_map[nexty][nextx] == '0'):
@@ -52,7 +52,7 @@ BFS
         
     + 이동할 위치가 '1'이고(벽이고), 아직 벽을 부순적이 없고, 이동할 위치에 is_break+1(1)인 상태로 방문한 적이 없을 때 
 
-        + answer의 이동할 위치, is_break+1에 현재위치, is_break 값에 + 1 한 값을 넣어준다.
+        + `answer의 이동할 위치, is_break+1`에 `현재위치, is_break 값`의 + 1 한 값을 넣어준다.
 
             ```python
             elif(is_break == 0 and answer[nexty][nextx][is_break+1] == -1 and road_map[nexty][nextx] == '1'):
