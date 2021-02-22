@@ -37,7 +37,6 @@ def make_edge(edge):
 if __name__ == "__main__":
     N, M = map(int, input().split())
     god = []
-    road = []
     for i in range(N):
         new_list = list(map(int, input().split()))
         new_list.insert(0, i+1)
@@ -47,13 +46,9 @@ if __name__ == "__main__":
     graph = []
     for i in comb_list:
         graph.append((make_edge(i)))
-    
     graph.sort()
-
     for i in range(M):
         u, v = map(int, input().split())
         union(u, v)
     answer = kruskal(graph)
     print('%.2f' % answer)
-
-    
