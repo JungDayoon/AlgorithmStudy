@@ -17,7 +17,6 @@
   * `N >= 4`는 `dp[2]`처럼 2칸씩 나누는 경우외에 특수한 경우가 2가지 더 존재한다.
 
     * 예를 들어 `N = 4`라면	 ![image](https://user-images.githubusercontent.com/33208360/108837090-172abe00-7615-11eb-91b5-49a9a27a9829.png)
-    * `N = 6`이라면    ![image-20210223202651065](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20210223202651065.png)
 
   * 위의 조건을 고려하여 규칙을 세운다. 예를 들어 `N=6`이라면 3가지 조합으로 생각해볼 수 있다.
 
