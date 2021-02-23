@@ -16,7 +16,7 @@ public class _1774 {
 			V[i] = new Vertex(Integer.parseInt(s[0]), Integer.parseInt(s[1]));
 		}
 		
-		double[][] Dist = new double[N+1][N+1];
+		boolean[][] Dist = new boolean[N+1][N+1];
 		PriorityQueue<Edge> pq1 = new PriorityQueue<>();
 		for(int i=0; i<M; i++) {
 			s = br.readLine().split(" ");
@@ -24,15 +24,15 @@ public class _1774 {
 			int n2 = Integer.parseInt(s[1]);
 			pq1.add(new Edge(n1, n2, ComputeDist(V[n1], V[n2])));
 			if(n1 < n2)
-				Dist[n1][n2] = -1; // 이미 있는 간선은 -1로
+				Dist[n1][n2] = true; // 이미 있는 간선은 -1로
 			else
-				Dist[n2][n1] = -1;
+				Dist[n2][n1] = true;
 		}
 		
 		PriorityQueue<Edge> pq2 = new PriorityQueue<>();
 		for(int i=1; i<N+1; i++) {
 			for(int j=i+1; j<N+1; j++) {
-				if(Dist[i][j] != -1) {
+				if(!Dist[i][j]) {
 					pq2.add(new Edge(i, j, ComputeDist(V[i], V[j])));
 				}
 			}
