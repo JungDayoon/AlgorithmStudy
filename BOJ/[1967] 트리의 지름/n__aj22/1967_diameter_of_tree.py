@@ -1,9 +1,7 @@
 tree = {}
-tree2 = {}
 def init():
     for i in range(N):
         tree[i+1] = []
-        tree2[i+1] = []
 def find_max(start):
     visited = [-1]*(N+1)
     visited[start] = 0
