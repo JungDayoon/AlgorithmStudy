@@ -29,8 +29,8 @@ if __name__ == "__main__":
         parent, child, weight = map(int, input().split())
         tree[parent].append([child, weight])
         tree[child].append([parent, weight])
-    first_vertex, weight = find_max(1)
-    second_vertex, weight = find_max(first_vertex)
-    print(weight)
+    y, weight = find_max(1)
+    z, weight = find_max(y)
+    print(z)
     
     
