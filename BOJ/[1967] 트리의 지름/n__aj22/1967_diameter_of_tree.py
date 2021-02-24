@@ -31,6 +31,6 @@ if __name__ == "__main__":
         tree[child].append([parent, weight])
     y, weight = find_max(1)
     z, weight = find_max(y)
-    print(z)
+    print(weight)
     
     
