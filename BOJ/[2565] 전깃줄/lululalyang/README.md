@@ -23,7 +23,33 @@
       * `dp[j] + 1`과 `dp[i]` 중 큰 값으로 갱신.
   * 모든 원소의 `dp[]`값을 구한 후, `dp[]`배열의 최대 값이 해당 집합의 LIS의 길이가 된다.
 
-</br>
+> **:star: JAVA**
+>
+> * `int`형 2차원 배열 정렬하기 -> `Comparable`클래스 사용
+>
+>   ```java
+>   Arrays.sort(arr, new Comparable<int[]>{
+>   	@Override
+>   	public int compare(int[] a1, int[] a2){
+>   		return a1[0] - a2[0]; // 0번째 인덱스를 기준으로 오름차순 정렬
+>   	}
+>   })
+>   ```
+>
+> * 직접 생성한 객체 동일한지 비교 ->  `equals()`메소드 오버라이드
+>
+>   ```java
+>   class Made{
+>       ...
+>   	@Override
+>       public boolean equals(Object o){
+>           Made m = (Made)o;
+>           ... // 같은 객체일 조건 명시
+>       }
+>   }
+>   ```
+>
+>   
 
 ## :speaking_head:
 
