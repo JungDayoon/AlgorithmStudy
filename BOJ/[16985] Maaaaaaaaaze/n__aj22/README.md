@@ -16,7 +16,7 @@ Bruteforce, bfs, 구현
 
 3. board_list를 돌면서 판 5개의 순서를 정하고, 5개가 정해질 때 마다 option_list를 돌면서 5개의 판의 회전 수를 정해준다.
 
-+ 각 판에대해서 회전을 한 결과를 check_board에 append 해줌으로써 5개를 합친 maze 완성
++ 각 판에 대해서 회전을 한 결과를 check_board에 append 해줌으로써 5개를 합친 maze 완성
 
     ```python
     #5개의 판에 대해서 각 판을 option_list에 해당하는 것 만큼 회전해주는 함수 rotate를 호출
