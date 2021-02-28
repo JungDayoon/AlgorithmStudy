@@ -56,10 +56,7 @@ def choose_virus(count, virus_list, y, x):
                 if([i, j] not in virus_list):
                     virus_list.append([i, j])
                     choose_virus(count+1, virus_list, i, j+1)
-                    virus_list.pop(-1)
-
-
-    
+                    virus_list.pop(-1)    
 
 if __name__ == "__main__":
     N, M = map(int, input().split())
