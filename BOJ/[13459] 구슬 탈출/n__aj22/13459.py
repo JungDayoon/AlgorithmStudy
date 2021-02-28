@@ -1,8 +1,5 @@
 import copy
 ispossible = False
-dy = [-1, 0, 1, 0]
-dx = [0, 1, 0, -1]
-
 def changeposition(ry, rx, by, bx, direction, arr):
     if(direction == 0):
         #위
@@ -198,7 +195,7 @@ def changeposition(ry, rx, by, bx, direction, arr):
                     rx = i + 1
                     break
     return ry, rx, by, bx, arr
-def move(ry, rx, by, bx, arr, count, choose_list):
+def move(ry, rx, by, bx, arr, count):
     if(count>10 or (by== Ty and bx == Tx)):
         return
     if(ry == Ty and rx == Tx):
@@ -208,16 +205,12 @@ def move(ry, rx, by, bx, arr, count, choose_list):
     
     for i in range(4):
         temp = copy.deepcopy(arr)
-        choose_list.append(i)
         newry, newrx, newby, newbx, arr = changeposition(ry, rx, by, bx, i, arr)
         if(newry != ry or newrx != rx or newby != by or newbx != bx):
-            move(newry, newrx, newby, newbx, arr, count+1, choose_list)
+            move(newry, newrx, newby, newbx, arr, count+1)
         if(ispossible):
             break
-        arr = temp
-        choose_list.pop(-1)
-
-    
+        arr = temp 
 
 if __name__ == "__main__":
     N, M = map(int, input().split())
@@ -234,7 +227,7 @@ if __name__ == "__main__":
             if(new_arr[j] == 'O'):
                 Ty, Tx = i, j
         map_arr.append(new_arr)
-    move(Ry, Rx, By, Bx, map_arr, 0, [])
+    move(Ry, Rx, By, Bx, map_arr, 0)
     if(ispossible):
         print(1)
     else:
