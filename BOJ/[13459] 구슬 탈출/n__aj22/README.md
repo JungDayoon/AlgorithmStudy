@@ -19,6 +19,7 @@ DFS, Simulation
 + 이동 방향을 dfs로 정해주는 함수
 + 만약 11번 이상 호출되었거나, 파란 공이 구멍에 들어갔을 경우 return
 + 이동 후 빨간 공이 구멍으로 들어갔을 경우 성공했기 때문에 ispossible을 True로 바꾸고 return 
+
 ## Review
 
 3시간 풀었다..!!
