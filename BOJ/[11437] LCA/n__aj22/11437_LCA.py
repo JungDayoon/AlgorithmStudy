@@ -45,6 +45,19 @@ def make_tree(count, index, parent_index):
             depth[node] = count+1
             make_tree(count+1, node, index)
     return
+def fill_parent():
+    #parent[u][k+1] = parent[parent[u][k]][k]
+    k = 0
+    while(True):
+        changeflag = False
+        for i in range(1, N+1):
+            if(parent[i][k] != -1):
+                parent[i][k+1] = parent[parent[i][k]][k]
+                changeflag = True
+        if(changeflag == False):
+            break
+        k+=1
+
 if __name__ == "__main__":
     N = int(input())
     parent = [[-1]*18 for _ in range(N+1)]
@@ -60,17 +73,7 @@ if __name__ == "__main__":
     depth[1] = 0
     make_tree(0, 1, -1)
 
-    #parent[u][k+1] = parent[parent[u][k]][k]
-    k = 0
-    while(True):
-        changeflag = False
-        for i in range(1, N+1):
-            if(parent[i][k] != -1):
-                parent[i][k+1] = parent[parent[i][k]][k]
-                changeflag = True
-        if(changeflag == False):
-            break
-        k+=1
+    fill_parent()
     ##공통 조상 찾기 시작 
     M = int(input())
     for i in range(M):
