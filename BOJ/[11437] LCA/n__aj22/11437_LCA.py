@@ -73,7 +73,9 @@ if __name__ == "__main__":
     depth[1] = 0
     make_tree(0, 1, -1)
 
+    #parent 채우기 
     fill_parent()
+    
     ##공통 조상 찾기 시작 
     M = int(input())
     for i in range(M):
