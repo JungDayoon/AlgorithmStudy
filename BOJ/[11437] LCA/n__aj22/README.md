@@ -18,7 +18,8 @@ Tree, LCA
 <img src="https://user-images.githubusercontent.com/33089715/109943954-0c5ce100-7d19-11eb-8e0c-13b1e2566e82.png" width="500">
 
 + make_tree 호출 후 depth와 parent는 다음과 같다.
-<img src="https://user-images.githubusercontent.com/33089715/109944847-fef42680-7d19-11eb-9c53-22f27018f20f.png" width="500">
+
+    <img src="https://user-images.githubusercontent.com/33089715/109944847-fef42680-7d19-11eb-9c53-22f27018f20f.png" width="650">
 
     *parent는 보기 편하게 col, row가 반대로 되어있습니다.*
 
@@ -27,7 +28,8 @@ Tree, LCA
 + `parent[u][k+1] = parent[parent[u][k]][k]`임을 이용해 bottomup 으로 parent 배열을 채운다.
 
 + 호출 후에 parent는 다음과 같다.
-<img src="https://user-images.githubusercontent.com/33089715/109945837-fea85b00-7d1a-11eb-8e39-105d9ab6a463.png" width="500">
+
+    <img src="https://user-images.githubusercontent.com/33089715/109945837-fea85b00-7d1a-11eb-8e39-105d9ab6a463.png" width="650">
 
     *parent는 보기 편하게 col, row가 반대로 되어있습니다.*
 
