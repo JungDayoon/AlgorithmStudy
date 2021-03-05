@@ -46,6 +46,8 @@
 
 ### :family_man_girl: 일정표
 
+<details>
+    <summary>1~10주차 문제</summary>
 |                     |                              월                               |                              화                               |                              수                               |                              목                               |                              금                               |
 | :-----------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | 1주차(09.21~09.25) | [무선 충전](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRDL1aeugDFAUo) |    [K번째 수](https://www.acmicpc.net/problem/1300)    | [특이한 자석](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeV9sKkcoDFAVH) |       [쿼드트리](https://www.acmicpc.net/problem/1992)       | [활주로 건설](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeW7FakkUDFAVH) |
@@ -58,6 +60,16 @@
 | 8주차(11.16~11.20) |     [해킹](https://www.acmicpc.net/problem/10282)     |   [지름길](https://www.acmicpc.net/problem/1446)   |    [그대, 그머가 되어](https://www.acmicpc.net/problem/14496)    |    [민준이와 마산 그리고 건우](https://www.acmicpc.net/problem/18223)    |   [지각하면 안 돼](https://www.acmicpc.net/problem/12763)   |
 | 9주차(11.23~11.30) |     [방문 길이](https://programmers.co.kr/learn/courses/30/lessons/49994)     |   [배달](https://programmers.co.kr/learn/courses/30/lessons/12978)   |    [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993)    |    [점프와 순간 이동](https://programmers.co.kr/learn/courses/30/lessons/12980)    |   [기지국 설치](https://programmers.co.kr/learn/courses/30/lessons/12979)   |
 | 10주차(01.18~01.22) |     [벽돌깨기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRQm6qfL0DFAUo)      |   [핀볼게임](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRF8s6ezEDFAUo)   |    [보물상자비밀번호](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRUN9KfZ8DFAUo)    |      [내리막길](https://www.acmicpc.net/problem/1520)    |  [합분해](https://www.acmicpc.net/problem/2225)  |
+
+* 5주차 : 위상정렬과 시뮬레이션
+* 6주차 : 트라이, 이분탐색 
+* 7주차 : DP 문제 
+* 8주차 : 다익스트라
+* 9주차 : 프로그래머스 Summer/Winter Coding
+</details>
+
+|                     |                              월                               |                              화                               |                              수                               |                              목                               |                              금                               |
+| :-----------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | 11주차(01.25~01.29) |     [말이되고픈원숭이](https://www.acmicpc.net/problem/1600)      |   [색종이 올려놓기](https://www.acmicpc.net/problem/2643)   |    [주사위윷놀이](https://www.acmicpc.net/problem/17825)    |      [소문난칠공주](https://www.acmicpc.net/problem/1941)    |  [진우의 민트초코우유](https://www.acmicpc.net/problem/20208)  |
 | 12주차(02.01~02.05) |     [강의실배정](https://www.acmicpc.net/problem/11000)      |   [줄세우기](https://www.acmicpc.net/problem/7570)   |    [문자열폭발](https://www.acmicpc.net/problem/9935)    |      [행렬 제곱](https://www.acmicpc.net/problem/10830)    |  [가르침](https://www.acmicpc.net/problem/1062)  |
 | 13주차(02.15~02.19) |     [Z](https://www.acmicpc.net/problem/1074)      |   [벽부수고이동하기](https://www.acmicpc.net/problem/2206)   |    [다리만들기](https://www.acmicpc.net/problem/2146)    |      [미친 로봇](https://www.acmicpc.net/problem/1405)    |  [기타콘서트](https://www.acmicpc.net/problem/1497)  |
@@ -66,16 +78,18 @@
 | 15주차(03.01~03.05) |     [다리 만들기 2](https://www.acmicpc.net/problem/17472)      |   [퍼즐](https://www.acmicpc.net/problem/1525)   |    [구슬 탈출](https://www.acmicpc.net/problem/13459)    |      [Maaaaaaaaaze](https://www.acmicpc.net/problem/16985)    |  [연구소 2](https://www.acmicpc.net/problem/17141)  |
 | 16주차(03.08~03.12) |     [트리](https://www.acmicpc.net/problem/1068)      |   [상근이의 여행](https://www.acmicpc.net/problem/9372)   |    [LCA](https://www.acmicpc.net/problem/11437)    |      [트리의 지름](https://www.acmicpc.net/problem/1967)    |  [전단지 돌리기](https://www.acmicpc.net/problem/19542)  |
 | 16주차(03.08~03.12) |     [뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677)      |   [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680)   |    [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679)    |      [오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888)    |  [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890)  |
-* 5주차: 위상정렬과 시뮬레이션
-* 6주차: 트라이, 이분탐색 
-* 7주차: DP 문제 
-* 8주차: 다익스트라
-* 9주차: 프로그래머스 Summer/Winter Coding
-* 14주차: 최소 스패닝 트리
+| 17주차(03.15~03.19) | [동전 1](https://www.acmicpc.net/problem/2293) |  [공통 부분 문자열](https://www.acmicpc.net/problem/5582)  |  [행렬 곱셈 순서](https://www.acmicpc.net/problem/11049)  | [팰린드롬 분할](https://www.acmicpc.net/problem/1509) | [카드 게임](https://www.acmicpc.net/problem/11062)  |
+| 17주차(03.15~03.19) | [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | [자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059) | [외벽 점검](https://programmers.co.kr/learn/courses/30/lessons/60062) | [기둥과 보 설치](https://programmers.co.kr/learn/courses/30/lessons/60061) |
+| 18주차(03.22~03.26) | [순위검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413) |  [카드 짝 맞추기](https://programmers.co.kr/learn/courses/30/lessons/72415)  |  [매출 하락 최소화](https://programmers.co.kr/learn/courses/30/lessons/72416) |  [광고삽입](https://programmers.co.kr/learn/courses/30/lessons/72414)  |
+| 18주차(03.22~03.26) | [사회망 서비스(SNS)](https://www.acmicpc.net/problem/2533) |  [트리의 독립집합](https://www.acmicpc.net/problem/2213)  |  [트리와 쿼리](https://www.acmicpc.net/problem/15681)  | [신년 파티](https://www.acmicpc.net/problem/1623) |  [우수마을](https://www.acmicpc.net/problem/1949) |
 
 **15주차부터는 하루에 2개씩 풀도록 합니다(권장)**
-* 15주차: DP, BFS
-* 16주차: 트리, 프로그래머스 카카오 2018,2019 Blind Recruitment level2
+* 14주차 : 최소 스패닝 트리
+* 15주차 : DP, BFS
+* 16주차 : 트리, 2018,2019 KAKAO BLIND RECRUITMENT level2
+* 17주차 : DP, 2020 KAKAO BLIND RECRUITMENT
+* 18주차 : 트리에서의 DP, 2021 KAKAO BLIND RECRUITMENT
+
 
 
 
