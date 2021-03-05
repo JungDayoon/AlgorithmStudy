@@ -48,6 +48,7 @@
 
 <details>
     <summary>1~10주차 문제</summary>
+    
 |                     |                              월                               |                              화                               |                              수                               |                              목                               |                              금                               |
 | :-----------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | 1주차(09.21~09.25) | [무선 충전](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRDL1aeugDFAUo) |    [K번째 수](https://www.acmicpc.net/problem/1300)    | [특이한 자석](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeV9sKkcoDFAVH) |       [쿼드트리](https://www.acmicpc.net/problem/1992)       | [활주로 건설](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeW7FakkUDFAVH) |
@@ -83,13 +84,13 @@
 | 18주차(03.22~03.26) | [순위검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413) |  [카드 짝 맞추기](https://programmers.co.kr/learn/courses/30/lessons/72415)  |  [매출 하락 최소화](https://programmers.co.kr/learn/courses/30/lessons/72416) |  [광고삽입](https://programmers.co.kr/learn/courses/30/lessons/72414)  |
 | 18주차(03.22~03.26) | [사회망 서비스(SNS)](https://www.acmicpc.net/problem/2533) |  [트리의 독립집합](https://www.acmicpc.net/problem/2213)  |  [트리와 쿼리](https://www.acmicpc.net/problem/15681)  | [신년 파티](https://www.acmicpc.net/problem/1623) |  [우수마을](https://www.acmicpc.net/problem/1949) |
 
-**15주차부터는 하루에 2개씩 풀도록 합니다(권장)**
 * 14주차 : 최소 스패닝 트리
 * 15주차 : DP, BFS
 * 16주차 : 트리, 2018,2019 KAKAO BLIND RECRUITMENT level2
 * 17주차 : DP, 2020 KAKAO BLIND RECRUITMENT
 * 18주차 : 트리에서의 DP, 2021 KAKAO BLIND RECRUITMENT
 
+    **15주차부터는 하루에 2개씩 풀도록 합니다(권장)**
 
 
 
