@@ -32,7 +32,6 @@ public class _17679 {
 	
 	private static void CleanUp(int m, int n, String[][] map) {
 		for(int j=0; j<n; j++) { // 한 열씩
-			int emptyIdx = m;
 			for(int i=m-1; i>=0; i--) { // 밑에서부터
 				if(map[i][j].equals("")) {
 					for(int k=i-1; k>=0; k--) {
