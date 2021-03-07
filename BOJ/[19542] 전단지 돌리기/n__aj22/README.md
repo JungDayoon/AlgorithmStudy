@@ -50,7 +50,7 @@
     ```
 + 위의 예시에서의 트리로 check_depth 호출 후에 결과는 다음과 같다.
 
-    <img src="https://user-images.githubusercontent.com/33089715/110231816-7bc31280-7f5d-11eb-8640-c6a294132c1a.png" width="600">
+    <img src="https://user-images.githubusercontent.com/33089715/110231816-7bc31280-7f5d-11eb-8640-c6a294132c1a.png" width="800">
 
 **`int go(int n)`** : depth가 D보다 크거나 같은 노드를 탐색하기 위해 이동한 거리 + 1를 return
 
