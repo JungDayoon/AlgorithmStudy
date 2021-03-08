@@ -6,7 +6,6 @@ public class _17472 {
     static int INF = 987654321;
     static int N,M,num=0;
     static int[][] map;
-   //static ArrayList<ArrayList<loc>> island = new ArrayList<ArrayList<loc>>(6);
     static ArrayList<loc>[] island=new ArrayList[6];
     static boolean[][] visited ;
     static int[] dy={0,1,0,-1};
@@ -21,17 +20,17 @@ public class _17472 {
         N=Integer.parseInt(s[0]);
         M=Integer.parseInt(s[1]);
         map=new int[N][M];
-        visited=new boolean[N][M]; //false로 초기화?
+        visited=new boolean[N][M]; 
+        for(int i=0;i<6;i++){
+            island[i]=new ArrayList<loc>();
+        }
+
         for(int i=0;i<N;i++){
             s=br.readLine().split(" ");
             for(int j=0;j<M;j++){
                 map[i][j]=Integer.parseInt(s[j]);
             }
         }
-        for(int i=0;i<6;i++){
-            island[i]=new ArrayList<loc>();
-        }
-
         
         for(int i=0;i<N;i++){
             for(int j=0;j<M;j++){
@@ -46,26 +45,27 @@ public class _17472 {
                 int w=findBridge(island[i], island[j]);
                 if(w<2) continue; 
 
-                pq.add(new edge(i,j,w)); //i,j 순서 바꿔서 넣어야하나?
+                pq.add(new edge(i,j,w)); 
             }
         }
-        p = new int[num]; 
-        for (int i = 0; i < num; i++) { 
-            p[i] = i; 
-        }
 
+        p = new int[num]; 
+        for (int i = 0; i < num; i++) 
+            p[i] = i; 
+        
         int ans=0,cnt=0;
         while(!pq.isEmpty()) { 
-            edge edge = pq.poll(); //from 노드와 to 노드의 부모가 같지 않다면 
-            if (findSet(p, edge.u) != findSet(p, edge.v)) { //거리를 증가시킨다. 
-                ans+=edge.w; //모든 정점을 돌았으면 break; 
-                if (++cnt == num) break; //from과 to 노드를 합친다. 
+            edge edge = pq.poll(); 
+            if (findSet(p, edge.u) != findSet(p, edge.v)) { 
+                ans+=edge.w; 
+                if (cnt+1 == num) 
+                    break; 
+                cnt++;
                 union(p, edge.u, edge.v); 
             } 
         }
-        if(ans==0) ans=-1;
+        if(ans==0 || cnt!=num-1) ans=-1;
         System.out.println(ans);
-
     }
     public static int findSet(int[] p, int x) {
         if (p[x] == x) 
@@ -148,8 +148,7 @@ public class _17472 {
             if(map[ny][nx]==1 && !visited[ny][nx]) {
                 dfs(ny,nx,num);
             }
-        }
-        
+        }   
     }
     static class edge implements Comparable<edge>{
         int u,v,w;
@@ -162,8 +161,6 @@ public class _17472 {
         public int compareTo(edge o){
             return Integer.compare(this.w, o.w);
         }
-        
-
     }
     static class loc{
         int y,x;
@@ -171,6 +168,5 @@ public class _17472 {
             this.y=y;
             this.x=x;
         }
-    }
-    
+    }   
 }
