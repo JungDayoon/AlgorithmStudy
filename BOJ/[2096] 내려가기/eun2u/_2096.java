@@ -8,7 +8,6 @@ public class _2096 {
 		N = Integer.parseInt(br.readLine());
 
 		String[] s;
-
 		num = new int[N][3];
 		for(int i=0; i<N; i++) {
 			s = br.readLine().split(" ");
