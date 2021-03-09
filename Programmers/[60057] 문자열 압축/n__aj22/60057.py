@@ -1,7 +1,7 @@
 def solution(s):
     answer = float('inf')
     string_len = len(s)
-    half_len = len(s)//2
+    half_len = len(s)//2+1
 
     for target_length in range(1, half_len+1):
         zip_string = ""
