@@ -56,13 +56,6 @@ def start_move(sharks, shark_num, shark_dir):
                 else:
                     shark_num -=1
                     sharks[new_shark_index] = [-1, -1]
-        # print(t)
-        # print(sharks)
-        # for i in arr:
-        #     for j in i:
-        #         print(j, end=" ")
-        #     print()
-        # print()
     return -1
 if __name__ == "__main__":
     N, M, k = map(int, input().split())
