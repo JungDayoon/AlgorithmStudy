@@ -41,8 +41,8 @@
 > [n__aj22](https://github.com/njh0317)
 >
 > [lululalyang](https://github.com/SimEuilyang)
-
-
+>
+> [yunhacho](https://github.com/yunhacho) (알고리즘 스터디 입학!!)
 
 ### :family_man_girl: 일정표
 
