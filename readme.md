@@ -44,7 +44,7 @@
 >
 > [yunhacho](https://github.com/yunhacho) (알고리즘 스터디 입학👩‍💻)
 > 
-> [hyedinion](https://github.com/hyedinion)(알고리즘 스터디 입학👩‍💻)
+> [hyedinion](https://github.com/hyedinion) (알고리즘 스터디 입학👩‍💻)
 
 ### :family_man_girl: 일정표
 
