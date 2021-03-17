@@ -30,6 +30,29 @@
 
    * 이후 이분탐색을 처리하기 위함
 
+     > **:star: Java** - `List` 정렬
+     >
+     > ```java
+     > Collections.sort(List); // Collections.sort() 메소드 사용
+     > ```
+     >
+     > :heavy_plus_sign: 만약, list에 직접 생성한 객체를 추가하는 경우라면,
+     >
+     > `Comparable`인터페이스에 정의된 `compareTo()`메소드를 오버라이드 해준다.
+     >
+     > 메소드 안에는 정렬하고자 하는 조건으로 정의해준다.
+     >
+     > ```java
+     > class Data implements Comparable {
+     > 	@Override
+     >     public int compareTo(Data d){
+     >         return this.attr.compareTo(d.attr);
+     >     }
+     > }
+     > ```
+     >
+     > 
+
 3. 쿼리문을 스캔하면서 `map`에 존재하는 조건이라면 그 조건에 해당하는 코테 점수들로 이분탐색을 진행해 `X`점 이상인 점수의 개수를 찾는다.
 
    * 이때, 쿼리문도 `map`에 저장한 key처럼 하나의 문자열로 만들어 준 후 `map`에 있는지 확인한다.
