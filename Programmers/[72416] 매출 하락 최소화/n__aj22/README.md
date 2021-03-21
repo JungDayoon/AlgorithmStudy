@@ -96,6 +96,10 @@ Tree, DP (트리에서의 DP)
     + <span style="color:red">**주의**</span>  : child의 dp 값을 이용해야 하기 때문에 사용 전에 `find(child, sales)`를 호출해야한다.
 
 
+**dp 결과 값**
+<img src="https://user-images.githubusercontent.com/33089715/111898796-74c2f680-8a6b-11eb-824d-e6d11ee657d5.png" width="700">
+
+
 ## Review
 
 어려웡~
