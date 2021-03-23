@@ -92,12 +92,18 @@
 | 18주차<br>(03.22 ~ 03.26) | [순위검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | [합승 택시 요금](https://programmers.co.kr/learn/courses/30/lessons/72413) |  [카드 짝 맞추기](https://programmers.co.kr/learn/courses/30/lessons/72415)  |  [매출 하락 최소화](https://programmers.co.kr/learn/courses/30/lessons/72416) |  [광고삽입](https://programmers.co.kr/learn/courses/30/lessons/72414)  |
 | 18주차<br>(03.22 ~ 03.26) | [사회망 서비스(SNS)](https://www.acmicpc.net/problem/2533) |  [트리의 독립집합](https://www.acmicpc.net/problem/2213)  |  [트리와 쿼리](https://www.acmicpc.net/problem/15681)  | [신년 파티](https://www.acmicpc.net/problem/1623) |  [우수마을](https://www.acmicpc.net/problem/1949) |
 | 19주차<br>(03.29 ~ 04.02) | [마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056) |  [어른 상어](https://www.acmicpc.net/problem/19237)  |  [나무 재테크](https://www.acmicpc.net/problem/16235)  | [인구 이동](https://www.acmicpc.net/problem/16234) |  [원판 돌리기](https://www.acmicpc.net/problem/17822) |
-
+| 19주차<br>(03.29 ~ 04.02) | [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065) | [불량 사용자](https://programmers.co.kr/learn/courses/30/lessons/64064) | [호텔 방 배정](https://programmers.co.kr/learn/courses/30/lessons/64063) | [징검다리 건너기](https://programmers.co.kr/learn/courses/30/lessons/64062) | [크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061) |
+| 20주차<br>(04.05 ~ 04.09) | [최소비용 구하기](https://www.acmicpc.net/problem/1916) |[알고스팟](https://www.acmicpc.net/problem/1261) |  [파티](https://www.acmicpc.net/problem/1238)  |  [녹색 옷 입은 애가 젤다지?](https://www.acmicpc.net/problem/4485)  | [최소비용 구하기 2](https://www.acmicpc.net/problem/11779) | 
+| 20주차<br>(04.05 ~ 04.09) | [경주로 건설](https://programmers.co.kr/learn/courses/30/lessons/67259) | [동굴 탐험](https://programmers.co.kr/learn/courses/30/lessons/67260) | [키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256) | [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257) | [보석 쇼핑](https://programmers.co.kr/learn/courses/30/lessons/67258) | 
+| 21주차<br>(04.12 ~ 04.16) | [중앙값 구하기](https://www.acmicpc.net/problem/2696) |[가운데를 말해요](https://www.acmicpc.net/problem/1655) |  [카드 정렬하기](https://www.acmicpc.net/problem/1715)  |  [N번째 큰 수](https://www.acmicpc.net/problem/2075)  | [철로](https://www.acmicpc.net/problem/13334) | 
+| 21주차<br>(04.12 ~ 04.16) | [일요일 아침의 데이트](https://www.acmicpc.net/problem/1445) |[인내의 도미노 장인 호석](https://www.acmicpc.net/problem/20165) |  [불](https://www.acmicpc.net/problem/5427)  |  [치즈](https://www.acmicpc.net/problem/2636)  | [캐슬 디펜스](https://www.acmicpc.net/problem/17135) | 
 
 * 16주차 : 트리, 2018,2019 KAKAO BLIND RECRUITMENT level2
 * 17주차 : DP, 2020 KAKAO BLIND RECRUITMENT
 * 18주차 : 트리에서의 DP, 2021 KAKAO BLIND RECRUITMENT
-* 19주차 : 삼성기출
+* 19주차 : 삼성기출, 2019 KAKAO 개발자 겨울 인턴십
+* 20주차 : 다익스트라, 2020 KAKAO 인턴십
+* 21주차 : 우선순위큐
 
     **15주차부터는 하루에 2개씩 풀도록 합니다(권장)**
 
