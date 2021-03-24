@@ -115,5 +115,16 @@
 
 * 삼성 코테 대비 기출문제입니다. 시간이 나면 각자 풀어봅시다.
 
+|                     |                              월                               |                              화                               |                              수                               |                              목                               |                              금                               |
+| :-----------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| 19주차<br>(03.29 ~ 04.02) |  [모든 레코드 조회하기](https://programmers.co.kr/learn/courses/30/lessons/59034)   |   [역순 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/59035)   |    [아픈 동물 찾기](https://programmers.co.kr/learn/courses/30/lessons/59036)    |      [어린 동물 찾기](https://programmers.co.kr/learn/courses/30/lessons/59037)    |  [동물의 아이디와 이름](https://programmers.co.kr/learn/courses/30/lessons/59403)  |
+| 19주차<br>(03.29 ~ 04.02) |     [여러 기준으로 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/59404)      |   [상위 n개 레코드](https://programmers.co.kr/learn/courses/30/lessons/59405)   |    [최댓값 구하기](https://programmers.co.kr/learn/courses/30/lessons/59415)    |      [최솟값 구하기](https://programmers.co.kr/learn/courses/30/lessons/59038)    |  [동물 수 구하기](https://programmers.co.kr/learn/courses/30/lessons/59406)  |
+| 20주차<br>(04.05 ~ 04.09) | [중복 제거하기](https://programmers.co.kr/learn/courses/30/lessons/59408) |  [고양이와 개는 몇 마리 있을까](https://programmers.co.kr/learn/courses/30/lessons/59040)  |  [동명 동물 수 찾기](https://programmers.co.kr/learn/courses/30/lessons/59041)  | [입양 시각 구하기(1)](https://programmers.co.kr/learn/courses/30/lessons/59412) | [입양 시각 구하기(2)](https://programmers.co.kr/learn/courses/30/lessons/59413)  |
+| 20주차<br>(04.05 ~ 04.09) | [이름이 없는 동물의 아이디](https://programmers.co.kr/learn/courses/30/lessons/59039) | [이름이 있는 동물의 아이디](https://programmers.co.kr/learn/courses/30/lessons/59407) | [NULL 처리하기](https://programmers.co.kr/learn/courses/30/lessons/59410) | [없어진 기록 찾기](https://programmers.co.kr/learn/courses/30/lessons/59042) | [있었는데요 없었습니다](https://programmers.co.kr/learn/courses/30/lessons/59043) |
+| 21주차<br>(04.12 ~ 04.16) | [오랜 기간 보호한 동물(1)](https://programmers.co.kr/learn/courses/30/lessons/59044) | [보호소에서 중성화한 동물](https://programmers.co.kr/learn/courses/30/lessons/59045) | [루시와 엘라 찾기](https://programmers.co.kr/learn/courses/30/lessons/59046) | [이름에 el이 들어가는 동물 찾기](https://programmers.co.kr/learn/courses/30/lessons/59047) | [중성화 여부 파악하기](https://programmers.co.kr/learn/courses/30/lessons/59409) |
+| 21주차<br>(04.12 ~ 04.16) | [오랜 기간 보호한 동물(2)](https://programmers.co.kr/learn/courses/30/lessons/59411) | [DATETIME에서 DATE로 형 변환](https://programmers.co.kr/learn/courses/30/lessons/59414) | | | |
+
+* Programmers SQL
+
 
 ### **모두 화이팅!!!**
