@@ -109,13 +109,13 @@
     **15주차부터는 하루에 2개씩 풀도록 합니다(권장)**
 
 
-
+### 삼성 코테 대비 기출문제
 |                                      |                              1                               |                           2                            |                              3                               |                              4                               |                              5                               |
 | :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |          삼성기출(10.12~10.16)          |     [테트로미노](https://www.acmicpc.net/problem/14500)      |   [게리맨더링2](https://www.acmicpc.net/problem/17779)   |    [스타트와 링크](https://www.acmicpc.net/problem/14889)    |      [드래곤커브](https://www.acmicpc.net/problem/15685)    |  [이차원배열과 연산](https://www.acmicpc.net/problem/17140)  |
 
-* 삼성 코테 대비 기출문제입니다. 시간이 나면 각자 풀어봅시다.
 
+### Programmers SQL
 |                     |                              월                               |                              화                               |                              수                               |                              목                               |                              금                               |
 | :-----------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | SQL 1주<br>(03.29 ~ 04.02) |  [모든 레코드 조회하기](https://programmers.co.kr/learn/courses/30/lessons/59034)   |   [역순 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/59035)   |    [아픈 동물 찾기](https://programmers.co.kr/learn/courses/30/lessons/59036)    |      [어린 동물 찾기](https://programmers.co.kr/learn/courses/30/lessons/59037)    |  [동물의 아이디와 이름](https://programmers.co.kr/learn/courses/30/lessons/59403)  |
@@ -125,7 +125,7 @@
 | SQL 3주<br>(04.12 ~ 04.16) | [오랜 기간 보호한 동물(1)](https://programmers.co.kr/learn/courses/30/lessons/59044) | [보호소에서 중성화한 동물](https://programmers.co.kr/learn/courses/30/lessons/59045) | [루시와 엘라 찾기](https://programmers.co.kr/learn/courses/30/lessons/59046) | [이름에 el이 들어가는 동물 찾기](https://programmers.co.kr/learn/courses/30/lessons/59047) | [중성화 여부 파악하기](https://programmers.co.kr/learn/courses/30/lessons/59409) |
 | SQL 3주<br>(04.12 ~ 04.16) | [오랜 기간 보호한 동물(2)](https://programmers.co.kr/learn/courses/30/lessons/59411) | [DATETIME에서 DATE로 형 변환](https://programmers.co.kr/learn/courses/30/lessons/59414) | | | |
 
-* Programmers SQL
+
 
 
 ### **모두 화이팅!!!**
