@@ -45,8 +45,6 @@ def solution(n, weak, dist):
     for i in range(1, friends+1):
         choose_friends = dist[0:i]
         perm = list(permutations(choose_friends, i))
-        # print(weak_friends, start_list)
-        # i명 선택 시 
         for start in perm:
             flag = go_fix(start, weak, n)
             if(flag):
