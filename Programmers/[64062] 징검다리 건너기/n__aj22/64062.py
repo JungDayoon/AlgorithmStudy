@@ -1,7 +1,7 @@
 def possibility(num, stones, k):
     count = 0
     for stone in stones:
-        if(stone-num<=0):
+        if(stone-num<0):
             count+=1
         else:
             count = 0
@@ -10,11 +10,11 @@ def possibility(num, stones, k):
     return True
 def solution(stones, k):
     answer = 0
-    end = max(stones)
-    start = 0
+    end = max(stones)+1
+    start = 1 #한 명은 건널 수 있음 
     while(True):
         if(start == end - 1):
-            answer = start+1
+            answer = start
             break
         mid = (start+end)//2
         if(possibility(mid, stones, k)):
