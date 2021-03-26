@@ -39,7 +39,6 @@ def solution(user_id, banned_id):
     global answer
     answer = []
     dic = make_dictionary(banned_id, user_id) 
-    print(dic)
     backtracking(0, banned_id, dic, [])
     return len(answer)
 
