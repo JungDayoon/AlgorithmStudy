@@ -5,68 +5,49 @@
 String
 
 ## Description
+**`check_expression(uid, exp)`** : 숨겨진 아이디 exp에 uid가 해당하는지 여부를 확인해 boolean return
+1. 문자열 길이가 다르면 False
+2. 문자열 길이가 같으면
++ 문자열 길이만큼 확인하면서 같은 index에 다른 문자열이 존재한다면 False
+3. 위와 같은 경우가 아니면 True
 
-### 문제 설명
+**`make_dictionary(banned_id, user_id)`** : banned_id에 해당하는 user_id를 dictionary로 표현해 return
 
-1. 다음과 같은 튜플이 있다.
-    ```
-    (a1, a2, a3, ..., an)
-    ```
-2. 튜플은 다음과 같이 집합 기호로 표현할 수 있다.
-    ```
-    {{a1}, {a1, a2}, {a1, a2, a3}, {a1, a2, a3, a4}, ... {a1, a2, a3, a4, ..., an}}
-    ```
-3. 집합은 순서가 바뀔 수 있기 때문에 다음과 같이 바뀔 수 있다.
+1. dictionary의 key는 banned_id
+2. dictionary의 value는 banned_id에 해당하는 user_id 리스트
 
-    ```
-    {{a1}, {a1, a2}, {a1, a2, a3, a4}, ... {a1, a2, a3, a4, ..., an}, {a1, a2, a3}}
-    ```
-    ```
-    {{a1}, {a1, a2}, {a2, a3, a1}, {a1, a3, a2, a4}, ... {a1, a2, a3, a4, ..., an}}
-    ```
-4. 위와 같은 집합에서 바뀌지 않는 사실은 i개에서 i+1개로 원소가 하나씩 늘어난 경우 마지막에 추가된 원소가 i+1개의 원소 중 가장 마지막에 해당하는 원소이다.
-
-+ 예를들어 {{1, 2, 3}, {2, 1}, {1, 2, 4, 3}, {2}} 원소가 있다고 하자
-
-+ 길이 순서대로 sort 하면 {{2}, {2, 1}, {1, 2, 3}, {1, 2, 4, 3}} 이다. 
-
-+ 집합은 2번 규칙에 의해 생성되기 때문에 위의 예시에서 1번째 집합에서 2번째 집합으로 바뀔 때 추가된 1이 튜플에서 두번째 숫자이다.
-
-+ 2번째 집합에서 3번째 집합으로 바뀔 때 새롭게 추가된 3이 튜플에서 3번째 숫자이다.
-
-+ 3번째 집합에서 4번째 집합으로 바뀔 때 새롭게 추가된 4가 튜플에서 4번째 숫자이다.
-
-### 구현
-```
-"{{1,2,3},{2,1},{1,2,4,3},{2}}"
-```
-1. s는 문자열이므로 왼쪽 괄호, 오른쪽 괄호 모두 공백으로 바꾼다.
-    ```
-    "  1,2,3 , 2,1 , 1,2,4,3 , 2  "
-    ```
-2. 전체 s에서 왼쪽, 오른쪽 공백을 제거한다.
-    ```
-    "1,2,3 , 2,1 , 1,2,4,3 , 2"
-    ```
-3. " , " (공백,공백)기준으로 집합을 구분해 리스트에 저장한다.
-    ```
-    ["1,2,3", "2,1", "1,2,4,3", "2"]
-    ```
-4. 리스트에 저장된 문자열을 길이 기준으로 정렬한다.
-    ```
-    ["2", "2,1", "1,2,3", "1,2,4,3"]
-    ```
-5. 위의 문자열을 하나씩 확인한다. , 기준으로 잘라 숫자 하나씩 확인하며 answer에 없는 숫자라면 answer에 추가하고 break(이 문자열은 더 이상 확인할 필요가 없기 때문에 다음 문자열로 넘어간다.)
-
++ 예를들어 user_id와 banned_id가 다음과 같다고 하자
     ```python
-    for value in s:
-        value_list = value.split(",")
-        for num in value_list:
-            num = int(num)
-            if num not in answer:
-                answer.append(num)
-                break
+    user_id = ["frodo", "fradi", "crodo", "abc123", "frodoc"]
+    banned_id = ["*rodo", "*rodo", "******"]
     ```
++ 위의 경우를 dictionary로 만들면 다음과 같다.
+    ```python
+    dic = {'*rodo': ['frodo', 'crodo'], '******': ['abc123', 'frodoc']}
+    ```
+**`backtracking(index, banned_id, dic, choose_list)`** : banned_id에 해당하는 id를 choose_list에 중복되지 않게 담아준 뒤, 중복되지 않은 조합인 경우 answer에 담아주는 함수
 
+1. backtracking을 이용한다.
+2. 종료 조건은 index가 banned_id길이와 동일한 경우, 즉 banned_id 개수 만큼 choose_list에 id가 담겼을 경우이다.
++ choose_list에 담긴 id를 sort한 뒤, answer에 담긴 조합인지 확인한다.
++ 없으면 answer에 추가한다.
+    ```python
+    if(index == len(banned_id)):
+        temp = copy.deepcopy(choose_list)
+        temp.sort()
+        if temp not in answer:
+            answer.append(temp)
+        return
+    ```
+3. 종료 조건에 해당하지 않는다면 dictionary에 담긴 banned_id[index]값들을 모두 돌면서 choose_list에 없는 id인 경우, choose_list에 담은 후 backtracking을 재호출 한다.
+    ```python
+    for uid in dic[banned_id[index]]:
+        if(uid not in choose_list):
+            choose_list.append(uid)
+            backtracking(index+1, banned_id, dic, choose_list)
+            choose_list.pop(-1)
+    ```
+**`solution(user_id, banned_id)`** : 모든 과정을 수행해준 후 return 값은 answer의 길이이다.
 ## Review
 
+쉽다
