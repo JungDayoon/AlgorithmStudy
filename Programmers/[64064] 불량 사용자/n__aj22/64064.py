@@ -24,16 +24,22 @@ def backtracking(index, banned_id, dic, choose_list):
             backtracking(index+1, banned_id, dic, choose_list)
             choose_list.pop(-1)
     return
-def solution(user_id, banned_id):
-    global answer
-    answer = []
-    dic = {} #key = banned_id, value = banned_id에 해당될 수 있는 user_id 리스트
+def make_dictionary(banned_id, user_id):
+    #key = banned_id, value = banned_id에 해당될 수 있는 user_id 리스트
+    dic = {}
     for banned in banned_id: 
         new_value = []
         for uid in user_id:
             if(check_expression(uid, banned)):
                 new_value.append(uid)
         dic[banned] = new_value
+    return dic
+
+def solution(user_id, banned_id):
+    global answer
+    answer = []
+    dic = make_dictionary(banned_id, user_id) 
+    print(dic)
     backtracking(0, banned_id, dic, [])
     return len(answer)
 
