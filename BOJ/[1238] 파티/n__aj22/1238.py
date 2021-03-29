@@ -30,7 +30,7 @@ if __name__ == "__main__":
     for i in range(M):
         u, v, cost = map(int, input().split())
         if v in road[u]:
-            road[u][v] = max(road[u][v], cost)
+            road[u][v] = min(road[u][v], cost)
         else:
             road[u][v] = cost
     back_home = dijkstra(X)
