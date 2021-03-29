@@ -4,7 +4,7 @@
 
 Divide & Conquer
 
-
+<br>
 ## 접근법
 
 1. 절벽지대(이하 space)의 가로,세로에 놓을 수 있는 활주로를 구해야함
@@ -12,7 +12,7 @@ Divide & Conquer
 3. space의 각 line을 for문으로 집어 넣어 활주로를 건설 할 수 있으면 1, 없으면 0을 return하는 check_line()함수를 구현
 4. return 값을 answer에 더해 출력
 
-
+<br>
 ## 제약조건
 
 경사로를 놓을 수 없는 경우
@@ -20,9 +20,9 @@ Divide & Conquer
 - 이미 설치된 경사로에 또 경사로를 설치할 때
 - 경사로의 길이가 범위를 벗어날 때
 
-
+<br>
 ## 코드설명
-
+<br>
 ### 내장함수
 ```python
 space = list(map(list,zip(*space)))
@@ -44,7 +44,7 @@ s = space[:]
 ```
 3. s = space라고 하면 주소값도 복사하여 값을 수정하게 되면 space의 값도 바뀌게됨.
 s 값만 수정하고 싶으면 space의 각 인자를 복사하는 [:]를 써야한다.
-
+<br>
 ### check_line() 함수
 
 s = space의 각 line을 넘겨준 값을 복사 <br>
@@ -88,8 +88,8 @@ for j in range(1,x+1):
 ```
 8. 왼쪽도 마찬가지
 
-
-## 후기🧝‍♀️
+<br>
+## 후기
 - 제약조건을 많이 놓쳤다
 - 다음엔 더 꼼꼼히 문제를 읽어야겠다.
 
