@@ -30,18 +30,18 @@ space = list(map(list,zip(*space)))
 
 zip 함수를 사용하면 각 변수의 index가 같은 요소값끼리 묶어서 ()로 return
 
-'''python
+```python
 space = [[1,1,1],
          [2,2,2],
          [3,3,3]]
 print(list(zip(*space)))
-'''
+```
 *space에서 *연산자는 space를 iterator로 사용하여 각 열의 첫번째 인자들을 묶어서 return해줌
 결과 -> [(1, 2, 3), (1, 2, 3), (1, 2, 3)]
 
-'''python
+```python
 s = space[:]
-'''
+```
 s = space라고 하면 주소값도 복사하여 값을 수정하게 되면 space의 값도 바뀌게됨.
 s 값만 수정하고 싶으면 space의 각 인자를 복사하는 [:]를 써야한다.
 
@@ -55,23 +55,23 @@ i = index
 1. 처음에 함수에 들오면 첫번째로 line의 첫번 째 값을 a에 저장.
 2. i를 증가하며 line[i]의 값이 a와 다르면 조건탐색 시작
 3. line[i]의 값을 b에 저장
-'''python
+```python
 if abs(a-b)>1:
     return 0
-'''
+```
 4. (a-b)의 절댓값이 경사로의 높이인 1보다 작으면 0을 return 
 5. b의 값이 a보다 작을 경우 오른쪽에 경사로를 설치해야함
    b의 값이 a보다 작을 경우 오른쪽에 경사로를 설치해야함
-'''python
+```python
 #오른쪽
 if i+x>n:
     return 0
 #왼쪽
 if i-x<0:
     return 0
-'''
+```
 6. 범위를 넘어가면 0을 return
-''' python
+``` python
 for j in range(x):
     if s[i+j]!=b:
         return 0
@@ -79,11 +79,13 @@ for j in range(x):
 i = i+x
 a = b
 continue
-'''
+```
 7. 오른쪽 경사로를 탐색할 때 같은 숫자가 경사로의 길이만큼 반복되면 경사로를 설치했다고 -1로 표시하고 경삿로 길이보다 작으면 0을 return한다.
+```python
 for j in range(1,x+1):
     if s[i-j]!=a:
         return 0
+```
 8. 왼쪽도 마찬가지
 
 
