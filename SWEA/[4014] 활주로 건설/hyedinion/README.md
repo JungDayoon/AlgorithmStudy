@@ -28,7 +28,7 @@ Divide & Conquer
 space = list(map(list,zip(*space)))
 ```
 
-zip 함수를 사용하면 각 변수의 index가 같은 요소값끼리 묶어서 ()로 return
+1. zip 함수를 사용하면 각 변수의 index가 같은 요소값끼리 묶어서 ()로 return
 
 ```python
 space = [[1,1,1],
@@ -36,21 +36,21 @@ space = [[1,1,1],
          [3,3,3]]
 print(list(zip(*space)))
 ```
-*space에서 *연산자는 space를 iterator로 사용하여 각 열의 첫번째 인자들을 묶어서 return해줌
+2. *space에서 *연산자는 space를 iterator로 사용하여 각 열의 첫번째 인자들을 묶어서 return해줌
 결과 -> [(1, 2, 3), (1, 2, 3), (1, 2, 3)]
 
 ```python
 s = space[:]
 ```
-s = space라고 하면 주소값도 복사하여 값을 수정하게 되면 space의 값도 바뀌게됨.
+3. s = space라고 하면 주소값도 복사하여 값을 수정하게 되면 space의 값도 바뀌게됨.
 s 값만 수정하고 싶으면 space의 각 인자를 복사하는 [:]를 써야한다.
 
 ### check_line() 함수
 
-s = space의 각 line을 넘겨준 값을 복사
-a = prev
-b = current
-i = index
+s = space의 각 line을 넘겨준 값을 복사 <br>
+a = prev<br>
+b = current<br>
+i = index<br>
 
 1. 처음에 함수에 들오면 첫번째로 line의 첫번 째 값을 a에 저장.
 2. i를 증가하며 line[i]의 값이 a와 다르면 조건탐색 시작
