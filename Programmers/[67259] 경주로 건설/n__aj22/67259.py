@@ -32,24 +32,6 @@ def dijkstra(N, board):
                     distances[nexty][nextx] = nextdistance
                     heapq.heappush(queue, [ nexty, nextx, distances[nexty][nextx],i])
     return distances
-def backtracking(N, board, visited, cost, before, now):
-    global total_cost
-    if(now == [N-1, N-1]):
-        total_cost = min(total_cost, cost)
-        return
-    
-    for i in range(4):
-        nexty, nextx = now[0]+dy[i], now[1]+dx[i]
-        if(isin(nexty, nextx, N)):
-            if(not visited[nexty][nextx] and board[nexty][nextx] == 0):
-                now_cost = calculate_cost(before, i)
-                if(cost+now_cost>total_cost):
-                    continue
-                visited[nexty][nextx] = True
-                backtracking(N, board, visited, cost+now_cost, i, [nexty, nextx])
-                visited[nexty][nextx] = False
-    return
-
 def solution(board):
     answer = 0
     N = len(board)
