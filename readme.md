@@ -124,7 +124,7 @@
 | SQL 2주<br>(04.05 ~ 04.09) | [이름이 없는 동물의 아이디](https://programmers.co.kr/learn/courses/30/lessons/59039) | [이름이 있는 동물의 아이디](https://programmers.co.kr/learn/courses/30/lessons/59407) | [NULL 처리하기](https://programmers.co.kr/learn/courses/30/lessons/59410) | [없어진 기록 찾기](https://programmers.co.kr/learn/courses/30/lessons/59042) | [있었는데요 없었습니다](https://programmers.co.kr/learn/courses/30/lessons/59043) |
 | SQL 3주<br>(04.12 ~ 04.16) | [오랜 기간 보호한 동물(1)](https://programmers.co.kr/learn/courses/30/lessons/59044) | [보호소에서 중성화한 동물](https://programmers.co.kr/learn/courses/30/lessons/59045) | [루시와 엘라 찾기](https://programmers.co.kr/learn/courses/30/lessons/59046) | [이름에 el이 들어가는 동물 찾기](https://programmers.co.kr/learn/courses/30/lessons/59047) | [중성화 여부 파악하기](https://programmers.co.kr/learn/courses/30/lessons/59409) |
 | SQL 3주<br>(04.12 ~ 04.16) | [오랜 기간 보호한 동물(2)](https://programmers.co.kr/learn/courses/30/lessons/59411) | [DATETIME에서 DATE로 형 변환](https://programmers.co.kr/learn/courses/30/lessons/59414) | | | |
-
+* 코테 대비 각자 풀어봅니다.
 
 
 
