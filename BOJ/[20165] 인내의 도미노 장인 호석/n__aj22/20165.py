@@ -49,6 +49,3 @@ if __name__ == "__main__":
     print(answer)
     for i in check:
         print(' '.join(i))
-
-    
-    
