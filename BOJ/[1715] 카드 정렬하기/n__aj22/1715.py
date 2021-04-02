@@ -1,9 +1,7 @@
 import heapq
 def calculate(arr):
     answer = 0
-    while(arr):
-        if(len(arr)==1):
-            return answer
+    while(len(arr)!=1):
         num1 = heapq.heappop(arr)
         num2 = heapq.heappop(arr)
         sum_num = num1+num2
