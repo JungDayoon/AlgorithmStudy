@@ -15,7 +15,16 @@
 : 중앙값 수열에 해당하는 리스트를 리턴
 
 * `ArrayList<Integer> minlist` : 리턴 리스트
+
 * `PriorityQueue<Integer> pq` : 우선순위 큐를 사용
+
+  > **:star:내림차순**
+  >
+  > ```java
+  > PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
+  > ```
+  >
+  > `Collections.reverseOrder()`를 사용한다.
 
 * `0`번부터 `M-1`번 인덱스의 원소를 스캔하면서,
 
