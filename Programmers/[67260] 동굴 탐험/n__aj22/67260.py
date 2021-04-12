@@ -1,4 +1,3 @@
-#95.6 / 100.0
 import sys
 sys.setrecursionlimit(10**6)
 tree = {}
