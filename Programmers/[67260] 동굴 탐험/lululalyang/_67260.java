@@ -35,7 +35,7 @@ public class _67260 {
 			adj[v].add(u);
 		}
 		
-		boolean[] visited = new boolean[n]; // 이번 경로에서 방문했는지의 여부 
+		boolean[] visited = new boolean[n]; // 방문했는지의 여부 
 		int[] before = new int[n]; // 이전에 방문해야하는 노드
 		int[] after = new int[n]; // 이후에 방문해야하는 노드
 		
