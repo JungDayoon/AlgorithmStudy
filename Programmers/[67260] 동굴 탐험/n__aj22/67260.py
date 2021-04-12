@@ -1,49 +1,58 @@
 #95.6 / 100.0
+import sys
+sys.setrecursionlimit(10**6)
 tree = {}
+real_tree = {}
 def init(n, path):
-    global tree
+    global tree, real_tree
     tree = {}
+    real_tree = {}
     for i in range(n):
         tree[i] = []
+        real_tree[i] = []
 
     for p in path:
         u, v = p
         tree[u].append(v)
         tree[v].append(u)
     return
-# def make_tree(visited, node):
-#     for child in tree[node]:
-#         if(not visited[child]):
-#             real_tree[node].append(child)
-#             visited[child] = True
-#             make_tree(visited, child)
+def make_tree(visited, node):
+    for child in tree[node]:
+        if(not visited[child]):
+            real_tree[node].append(child)
+            visited[child] = True
+            make_tree(visited, child)
     
-#     return
+    return
     
-def find_cycle(finished, check, node):
-    if(finished[node]): return False
+def find_cycle(visited, check, node):
+    if(visited[node]): return False
     if(check[node]): return True
 
-    finished[node] = True
+    visited[node] = True
     check[node] = True
-    for child in tree[node]:
-        if(not check[child]):
-            if not find_cycle(finished, check, child):
-                return False
-    finished[node] = False
+    for child in real_tree[node]:
+        if not find_cycle(visited, check, child):
+            return False
+    visited[node] = False
     return True
 def solution(n, path, order):
+    global real_tree
     answer = True
     init(n, path)
+
+    visited = [False]*n
+    visited[0] = True
+    make_tree(visited, 0)
     
     for i in order:
         u, v = i
         if v == 0:
             return False
-        tree[u].append(v)
-    finished = [False]*n
+        real_tree[u].append(v)
+    visited = [False]*n
     check = [False]*n
-    answer = find_cycle(finished, check, 0)
+    answer = find_cycle(visited, check, 0)
     return answer
 if __name__ == "__main__":
     n = 9
