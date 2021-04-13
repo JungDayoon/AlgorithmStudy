@@ -6,7 +6,6 @@ public class _1655 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(br.readLine());
 		
-		ArrayList<Integer> tmp = new ArrayList<>();
 		PriorityQueue<Integer> small = new PriorityQueue<>(Collections.reverseOrder()); // mid보다 작은 수 // 내림차순
 		PriorityQueue<Integer> big = new PriorityQueue<>(); // mid보다 큰 수 // 오름차순
 		
