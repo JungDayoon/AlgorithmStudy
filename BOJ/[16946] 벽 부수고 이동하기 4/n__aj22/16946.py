@@ -35,6 +35,7 @@ if __name__ == "__main__":
                 bfs(i, j, visited)
     for i in visited:
         print(i)
+        
     for i in range(N):
         for j in range(M):
             if(visited[i][j] == -1):
