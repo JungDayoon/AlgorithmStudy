@@ -1,22 +1,36 @@
 #가능한 space인지 확인
-def check_line(space,d,w,k):
+def check_line(lineCheck,d,w,k):
+    global space
+
+    #lineCheck대로 s 설정
+    s = [[]for _ in range(D)]
+    for j in range(D):
+        if lineCheck[j]==-1:
+            s[j] = space[j]
+        elif lineCheck[j]==0:
+            s[j] = [0]*w
+        else:
+            s[j]=[1]*w
+
+
     for j in range(w):
         check = 0
         cnt = 0
         #pre와 같은 숫자 count가 K만큼 나오면 check = 1
-        pre = space[0][j]
+        pre = s[0][j]
         for i in range(d):
-            if space[i][j]==pre:
+            if s[i][j]==pre:
                 cnt +=1
             else:
                 cnt = 1
-                pre = space[i][j]
+                pre = s[i][j]
             if cnt>=k:
                 check=1
                 break
         if check!=1:
             return False
     return True
+
 
 #linecheck수정해주고 queue에 저장
 def change_space(lineCheck,n,sn):
@@ -29,32 +43,23 @@ def change_space(lineCheck,n,sn):
     #만약 K보다 작은 수 중 답이 없으면 K가 정답이기 때문에 -1 return => backTracking
     if n>=K:
         return -1
-    
-    #lineCheck대로 s 설정
-    s = [[]for _ in range(D)]
-    for j in range(D):
-        if lineCheck[j]==-1:
-            s[j] = space[j]
-        elif lineCheck[j]==0:
-            s[j] = [0]*W
-        else:
-            s[j]=[1]*W
-
-    #가능하면 n을 return
-    if check_line(s,D,W,K):
-            return n
 
     # 겹치는 경우의 수를 제거하기 위해 sn 뒤에만 변경
     for i in range(sn,D):
         lineCheck[i]=1
-        queue.append([lineCheck[:],n+1,i+1])
+        #check하고 아니면 queue에 담기
+        if check_line(lineCheck,D,W,K):
+            return n
+        else:
+            queue.append([lineCheck[:],n+1,i+1])
         lineCheck[i]=0
-        queue.append([lineCheck[:],n+1,i+1])
+        if check_line(lineCheck,D,W,K):
+            return n
+        else:
+            queue.append([lineCheck[:],n+1,i+1])
         lineCheck[i]=-1
-        
+
     return -1
-
-
 
 
 T = int(input())
@@ -65,9 +70,11 @@ for t in range(T):
     answer = 0
     #각 라인을 어떤 값으로 수정했는지 저장
     lineCheck=[-1 for _ in range(D)]
+    queue=[]
 
     #bfs시작
-    queue = [[lineCheck,0,0]]
+    if not check_line(lineCheck,D,W,K):
+        queue.append([lineCheck,1,0])
 
     while len(queue)!=0:
         l,n,sn = queue.pop(0)
