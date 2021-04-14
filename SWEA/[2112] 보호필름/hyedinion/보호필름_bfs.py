@@ -51,12 +51,15 @@ def change_space(lineCheck,n,sn):
         if check_line(lineCheck,D,W,K):
             return n
         else:
-            queue.append([lineCheck[:],n+1,i+1])
+            if n+1<K:
+                queue.append([lineCheck[:],n+1,i+1])
+
         lineCheck[i]=0
         if check_line(lineCheck,D,W,K):
             return n
         else:
-            queue.append([lineCheck[:],n+1,i+1])
+            if n+1<K:
+                queue.append([lineCheck[:],n+1,i+1])
         lineCheck[i]=-1
 
     return -1
