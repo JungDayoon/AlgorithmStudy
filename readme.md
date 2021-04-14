@@ -102,15 +102,18 @@
 | 20주차<br>(04.05 ~ 04.09) | [경주로 건설](https://programmers.co.kr/learn/courses/30/lessons/67259) | [동굴 탐험](https://programmers.co.kr/learn/courses/30/lessons/67260) | [키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256) | [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257) | [보석 쇼핑](https://programmers.co.kr/learn/courses/30/lessons/67258) | 
 | 21주차<br>(04.12 ~ 04.16) | [중앙값 구하기](https://www.acmicpc.net/problem/2696) |[가운데를 말해요](https://www.acmicpc.net/problem/1655) |  [카드 정렬하기](https://www.acmicpc.net/problem/1715)  |  [N번째 큰 수](https://www.acmicpc.net/problem/2075)  | [철로](https://www.acmicpc.net/problem/13334) | 
 | 21주차<br>(04.12 ~ 04.16) | [일요일 아침의 데이트](https://www.acmicpc.net/problem/1445) |[인내의 도미노 장인 호석](https://www.acmicpc.net/problem/20165) |  [불](https://www.acmicpc.net/problem/5427)  |  [치즈](https://www.acmicpc.net/problem/2636)  | [캐슬 디펜스](https://www.acmicpc.net/problem/17135) | 
-| 22주차<br>(04.19 ~ 04.23) | [좋은수열](https://www.acmicpc.net/problem/2661) |[색종이 붙이기](https://www.acmicpc.net/problem/17136) |  [비숍](https://www.acmicpc.net/problem/1799)  |  [두 동전](https://www.acmicpc.net/problem/16197)  | [청소년 상어](https://www.acmicpc.net/problem/19236) | 
-| 22주차<br>(04.19 ~ 04.23) | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | [베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579) | [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627) | 
-| 23주차<br>(04.26 ~ 04.30) | [빵집](https://www.acmicpc.net/problem/3109) |[Two Dots](https://www.acmicpc.net/problem/16929) |  [벽 부수고 이동하기4](https://www.acmicpc.net/problem/16946)  |  [서울 지하철 2호선](https://www.acmicpc.net/problem/16947)  | [미로 탈출하기](https://www.acmicpc.net/problem/17090) | 
-| 23주차<br>(04.26 ~ 04.30) | [지형 이동](https://programmers.co.kr/learn/courses/30/lessons/62050) | [우유와 요거트가 담긴 장바구니](https://programmers.co.kr/learn/courses/30/lessons/62284) | [쿠키 구입](https://programmers.co.kr/learn/courses/30/lessons/49995) | [숫자 게임](https://programmers.co.kr/learn/courses/30/lessons/12987) | [스티커 모으기(2)](https://programmers.co.kr/learn/courses/30/lessons/12971) | 
+| 22주차<br>(04.19 ~ 04.23) | [배열 돌리기 4](https://www.acmicpc.net/problem/17406) |[게리맨더링](https://www.acmicpc.net/problem/17471) |  [마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)  |  [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)  | [연구소 3](https://www.acmicpc.net/problem/17142) | 
+| 22주차<br>(04.19 ~ 04.23) | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144) |[아기 상어](https://www.acmicpc.net/problem/16236) |  [치킨 배달](https://www.acmicpc.net/problem/15686)  |  [큐빙](https://www.acmicpc.net/problem/5373)  | [청소년 상어](https://www.acmicpc.net/problem/19236) | 
+| 23주차<br>(04.26 ~ 04.30) | [좋은수열](https://www.acmicpc.net/problem/2661) |[색종이 붙이기](https://www.acmicpc.net/problem/17136) |  [비숍](https://www.acmicpc.net/problem/1799)  |  [두 동전](https://www.acmicpc.net/problem/16197)  | [선발 명단](https://www.acmicpc.net/problem/3980) | 
+| 23주차<br>(04.26 ~ 04.30) | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | [베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579) | [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627) | 
+| 24주차<br>(05.03 ~ 05.07) | [빵집](https://www.acmicpc.net/problem/3109) |[Two Dots](https://www.acmicpc.net/problem/16929) |  [벽 부수고 이동하기4](https://www.acmicpc.net/problem/16946)  |  [서울 지하철 2호선](https://www.acmicpc.net/problem/16947)  | [미로 탈출하기](https://www.acmicpc.net/problem/17090) | 
+| 24주차<br>(05.03 ~ 05.07) | [지형 이동](https://programmers.co.kr/learn/courses/30/lessons/62050) | [우유와 요거트가 담긴 장바구니](https://programmers.co.kr/learn/courses/30/lessons/62284) | [쿠키 구입](https://programmers.co.kr/learn/courses/30/lessons/49995) | [숫자 게임](https://programmers.co.kr/learn/courses/30/lessons/12987) | [스티커 모으기(2)](https://programmers.co.kr/learn/courses/30/lessons/12971) | 
 
 * 20주차 : 다익스트라, 2020 KAKAO 인턴십
 * 21주차 : 우선순위큐
-* 22주차 : 백트래킹, 해시, 힙
-* 23주차 : DFS, 프로그래머스 Summer/Winter Coding
+* 22주차 : 삼성 기출
+* 23주차 : 백트래킹, 해시, 힙
+* 24주차 : DFS, 프로그래머스 Summer/Winter Coding
 
     **15주차부터는 하루에 2개씩 풀도록 합니다(권장)**
 
