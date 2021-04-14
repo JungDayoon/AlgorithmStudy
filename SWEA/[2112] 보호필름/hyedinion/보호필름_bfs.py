@@ -45,6 +45,7 @@ def change_space(lineCheck,n,sn):
         return -1
 
     # 겹치는 경우의 수를 제거하기 위해 sn 뒤에만 변경
+    append = queue.append
     for i in range(sn,D):
         lineCheck[i]=1
         #check하고 아니면 queue에 담기
@@ -52,14 +53,14 @@ def change_space(lineCheck,n,sn):
             return n
         else:
             if n+1<K:
-                queue.append([lineCheck[:],n+1,i+1])
+                append([lineCheck[:],n+1,i+1])
 
         lineCheck[i]=0
         if check_line(lineCheck,D,W,K):
             return n
         else:
             if n+1<K:
-                queue.append([lineCheck[:],n+1,i+1])
+                append([lineCheck[:],n+1,i+1])
         lineCheck[i]=-1
 
     return -1
