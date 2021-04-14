@@ -18,7 +18,7 @@ def check_line(space,d,w,k):
     return True
 
 #space 수정후 재귀함수 호출
-def change_space(space,D,W,K,lineCheck,n):
+def change_space(space,D,W,K,lineCheck,n,startn):
     global answer
     if n>=answer:
         return answer
@@ -27,11 +27,6 @@ def change_space(space,D,W,K,lineCheck,n):
     if check_line(space,D,W,K):
             answer = n
             return answer
-
-    startn = 0
-    for i in range(D):
-        if lineCheck[i]==1:
-            startn = i+1
     
     # 겹치는 경우의 수를 제거하기 위해 마지막 startn 뒤에만 변경
     for i in range(startn,D):
@@ -39,9 +34,9 @@ def change_space(space,D,W,K,lineCheck,n):
         
         lineCheck[i]=1
         space[i]= [1 for _ in range(W)]
-        answer = change_space(space,D,W,K,lineCheck,n+1)
+        answer = change_space(space,D,W,K,lineCheck,n+1,i+1)
         space[i]= [0 for _ in range(W)]
-        check = change_space(space,D,W,K,lineCheck,n+1)
+        check = change_space(space,D,W,K,lineCheck,n+1,i+1)
         space[i] = s
         lineCheck[i]=0
 
@@ -57,6 +52,6 @@ for t in range(T):
     lineCheck=[0 for _ in range(D)]
 
     #dfs시작
-    answer = change_space(space,D,W,K,lineCheck,0)
+    answer = change_space(space,D,W,K,lineCheck,0,0)
         
     print("#{} {}".format(t+1, answer))
