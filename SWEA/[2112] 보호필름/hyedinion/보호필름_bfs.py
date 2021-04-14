@@ -19,7 +19,7 @@ def check_line(space,d,w,k):
     return True
 
 #linecheck수정해주고 queue에 저장
-def change_space(lineCheck,n):
+def change_space(lineCheck,n,sn):
     global space
     global queue
     global D
@@ -39,22 +39,17 @@ def change_space(lineCheck,n):
             s[j] = [0]*W
         else:
             s[j]=[1]*W
+
     #가능하면 n을 return
     if check_line(s,D,W,K):
             return n
-        
 
-    startn = 0
-    for i in range(D):
-        if lineCheck[i]>-1:
-            startn = i+1
-
-    # 겹치는 경우의 수를 제거하기 위해 startn 뒤에만 변경
-    for i in range(startn,D):
+    # 겹치는 경우의 수를 제거하기 위해 sn 뒤에만 변경
+    for i in range(sn,D):
         lineCheck[i]=1
-        queue.append([lineCheck[:],n+1])
+        queue.append([lineCheck[:],n+1,i+1])
         lineCheck[i]=0
-        queue.append([lineCheck[:],n+1])
+        queue.append([lineCheck[:],n+1,i+1])
         lineCheck[i]=-1
         
     return -1
@@ -72,11 +67,11 @@ for t in range(T):
     lineCheck=[-1 for _ in range(D)]
 
     #bfs시작
-    queue = [[lineCheck,0]]
+    queue = [[lineCheck,0,0]]
 
     while len(queue)!=0:
-        l,n = queue.pop(0)
-        answer = change_space(l,n)
+        l,n,sn = queue.pop(0)
+        answer = change_space(l,n,sn)
         if answer!=-1:
             break
     if answer ==-1:
