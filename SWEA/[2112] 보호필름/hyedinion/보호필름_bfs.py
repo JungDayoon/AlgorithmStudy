@@ -26,7 +26,7 @@ def change_space(lineCheck,n):
     global W
     global K
 
-    #만약 K보다 작은 수 중 답이 없으면 K가 정답이기 때문에 -1 return
+    #만약 K보다 작은 수 중 답이 없으면 K가 정답이기 때문에 -1 return => backTracking
     if n>=K:
         return -1
     
@@ -49,7 +49,7 @@ def change_space(lineCheck,n):
         if lineCheck[i]>-1:
             startn = i+1
 
-    # 겹치는 경우의 수를 제거하기 위해 마지막 1 뒤에만 변경
+    # 겹치는 경우의 수를 제거하기 위해 startn 뒤에만 변경
     for i in range(startn,D):
         lineCheck[i]=1
         queue.append([lineCheck[:],n+1])
@@ -68,6 +68,7 @@ for t in range(T):
     D,W,K = map(int,input().split())
     space = [list(map(int,input().split())) for _ in range(D)]
     answer = 0
+    #각 라인을 어떤 값으로 수정했는지 저장
     lineCheck=[-1 for _ in range(D)]
 
     #bfs시작
