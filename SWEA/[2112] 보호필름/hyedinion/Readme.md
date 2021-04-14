@@ -38,10 +38,10 @@ if n>=answer:
 
 ## 코드설명
 
-space : 보호필름
-lineCheck : 어떤 row에 약물을 투여했는지 check, 투여했으면 1 아니면 0
-checkLine() : 보호필름(space)이 합격인지 확인
-change_space() : space를 수정후 재귀함수 호출 (dfs)
+space : 보호필름<br>
+lineCheck : 어떤 row에 약물을 투여했는지 check, 투여했으면 1 아니면 0<br>
+checkLine() : 보호필름(space)이 합격인지 확인<br>
+change_space() : space를 수정후 재귀함수 호출 (dfs)<br>
 
 
 ## 후기
