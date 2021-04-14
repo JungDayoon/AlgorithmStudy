@@ -1,7 +1,9 @@
+#가능한 space인지 확인
 def check_line(space,d,w,k):
     for j in range(w):
         check = 0
         cnt = 0
+        #pre와 같은 숫자 count가 K만큼 나오면 check = 1
         pre = space[0][j]
         for i in range(d):
             if space[i][j]==pre:
@@ -16,6 +18,7 @@ def check_line(space,d,w,k):
             return False
     return True
 
+#linecheck수정해주고 queue에 저장
 def change_space(lineCheck,n):
     global space
     global queue
@@ -23,6 +26,7 @@ def change_space(lineCheck,n):
     global W
     global K
 
+    #만약 K보다 작은 수 중 답이 없으면 K가 정답이기 때문에 -1 return
     if n>=K:
         return -1
     
