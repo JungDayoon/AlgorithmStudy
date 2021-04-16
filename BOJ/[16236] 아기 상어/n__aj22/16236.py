@@ -4,14 +4,7 @@ def isin(y, x):
     if(0<=y<N and 0<=x<N):
         return True
     return False
-def possible(shark_size):
-    possible_fish_num = 0
-    for weight, num in fish.items():
-        if(weight<shark_size):
-            possible_fish_num += weight
-    if(possible_fish_num == 0):
-        return False
-    return True
+
 def find_next_fish(y, x, size):
     queue = []
     queue.append([y, x])
@@ -53,13 +46,9 @@ def start_eat(y, x):
     eat_num = 0
     t = 0
     while(True):
-        if(not possible(shark_size)):#먹을 수 있는 물고기가 없음1
-            break
-        
         eaty, eatx, dis = find_next_fish(y, x, shark_size)
-        if(eaty == -1): #먹을 수 있는 물고기가 없음2
+        if(eaty == -1):
             break
-        fish[arr[eaty][eatx]]-=1
         arr[eaty][eatx] = 9
         arr[y][x] = 0
         y, x = eaty, eatx
@@ -72,7 +61,6 @@ def start_eat(y, x):
 if __name__ == "__main__":
     N = int(input())
     arr = []
-    fish = {}
     shark_y, shart_x = 0,0
     for i in range(N):
         new_list = list(map(int, input().split()))
@@ -80,12 +68,6 @@ if __name__ == "__main__":
         for j in range(N):
             if new_list[j] == 9:
                 shark_y, shark_x = i, j
-            elif new_list[j] != 0:
-                num = new_list[j]
-                if num in fish.keys():
-                    fish[num]+=1
-                else:
-                    fish[num] = 1
     
     print(start_eat(shark_y, shark_x))
 
