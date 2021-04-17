@@ -51,7 +51,7 @@
 
 ## :speaking_head:
 
-> **:timer_clock: *01:10 ~ 2:10***
+> **:timer_clock: *13:10 ~ 14:10***
 
 * 처음엔 bfs에 사용되는 `int[] dx, dy`배열의 순서를 :arrow_up:, :arrow_left:, :arrow_right:, :arrow_down: 으로 설정해주고 bfs를 했는데 테케4번의 결과값이 계속 달랐다
 
