@@ -50,8 +50,8 @@
 
 
 
-|                     |                              월                               |                              화                               |                              수                               |                              목                               |                              금                               |
-| :-----------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| |월|화|수|목|금|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | 1주차<br>~~(09.21 ~ 09.25)~~ <br> (03.22 ~ 03.26) | [무선 충전](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRDL1aeugDFAUo) |    [K번째 수](https://www.acmicpc.net/problem/1300)    | [특이한 자석](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeV9sKkcoDFAVH) |       [쿼드트리](https://www.acmicpc.net/problem/1992)       | [활주로 건설](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeW7FakkUDFAVH) |
 | 2주차<br>~~(09.28 ~ 10.02)~~ <br> (03.29 ~ 04.02) | [점심 식사시간](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5-BEE6AK0DFAVl) |     [스도쿠](https://www.acmicpc.net/problem/2580)     | [미생물 격리](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV597vbqAH0DFAVl) |         [작업](https://www.acmicpc.net/problem/2056)         | [홈 방범 서비스](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V61LqAf8DFAWu) |
 | 3주차<br>~~(10.05 ~ 10.09)~~ <br> (04.05 ~ 04.09)| [보호필름](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu) |    [낚시왕](https://www.acmicpc.net/problem/17143)     | [디저트 카페](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5VwAr6APYDFAWu) |     [스타트택시](https://www.acmicpc.net/problem/19238)      | [탈주범 검거](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpLlKAQ4DFAUq) |
@@ -61,8 +61,8 @@
 <details>
     <summary>6주차~20주차 문제 확인하기</summary>
 
-|                     |                              월                               |                              화                               |                              수                               |                              목                               |                              금                               |
-| :-----------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |    
+| |월|화|수|목|금|
+| :-: | :-: | :-: | :-: | :-: | :-: |   
 | 6주차<br>(11.02 ~ 11.06) |     [문자열 집합](https://www.acmicpc.net/problem/14425)     |   [숫자카드2](https://www.acmicpc.net/problem/10816)   |    [전화번호 목록](https://www.acmicpc.net/problem/5052)     | [LIS2](https://www.acmicpc.net/problem/12015) | [가사검색](https://programmers.co.kr/learn/courses/30/lessons/60060) |
 | 7주차<br>(11.09 ~ 11.13) | [LDS](https://www.acmicpc.net/problem/11722) |     [스티커](https://www.acmicpc.net/problem/9465)     |    [카드 구매하기](https://www.acmicpc.net/problem/11052)    | [N으로 표현](https://programmers.co.kr/learn/courses/30/lessons/42895) | [정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105) |
 | 8주차<br>(11.16 ~ 11.20) |     [해킹](https://www.acmicpc.net/problem/10282)     |   [지름길](https://www.acmicpc.net/problem/1446)   |    [그대, 그머가 되어](https://www.acmicpc.net/problem/14496)    |    [민준이와 마산 그리고 건우](https://www.acmicpc.net/problem/18223)    |   [지각하면 안 돼](https://www.acmicpc.net/problem/12763)   |
@@ -99,8 +99,8 @@
 * 20주차 : 다익스트라, 2020 KAKAO 인턴십
 </details>
 
-|                     |                              월                               |                              화                               |                              수                               |                              목                               |                              금                               |
-| :-----------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| |월|화|수|목|금|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | 21주차<br>(04.12 ~ 04.16) | [중앙값 구하기](https://www.acmicpc.net/problem/2696) |[가운데를 말해요](https://www.acmicpc.net/problem/1655) |  [카드 정렬하기](https://www.acmicpc.net/problem/1715)  |  [N번째 큰 수](https://www.acmicpc.net/problem/2075)  | [철로](https://www.acmicpc.net/problem/13334) | 
 | 21주차<br>(04.12 ~ 04.16) | [일요일 아침의 데이트](https://www.acmicpc.net/problem/1445) |[인내의 도미노 장인 호석](https://www.acmicpc.net/problem/20165) |  [불](https://www.acmicpc.net/problem/5427)  |  [치즈](https://www.acmicpc.net/problem/2636)  | [캐슬 디펜스](https://www.acmicpc.net/problem/17135) | 
 | 22주차<br>(04.19 ~ 04.23) | [배열 돌리기 4](https://www.acmicpc.net/problem/17406) |[게리맨더링](https://www.acmicpc.net/problem/17471) |  [마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)  |  [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)  | [연구소 3](https://www.acmicpc.net/problem/17142) | 
@@ -120,14 +120,14 @@
 
 
 ### 삼성 코테 대비 기출문제
-|                                      |                              1                               |                           2                            |                              3                               |                              4                               |                              5                               |
-| :----------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| |1|2|3|4|5|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 |          삼성기출(10.12~10.16)          |     [테트로미노](https://www.acmicpc.net/problem/14500)      |   [게리맨더링2](https://www.acmicpc.net/problem/17779)   |    [스타트와 링크](https://www.acmicpc.net/problem/14889)    |      [드래곤커브](https://www.acmicpc.net/problem/15685)    |  [이차원배열과 연산](https://www.acmicpc.net/problem/17140)  |
 
 
 ### Programmers SQL
-|                     |                              월                               |                              화                               |                              수                               |                              목                               |                              금                               |
-| :-----------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| |1|2|3|4|5|
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | SQL 1주<br>(03.29 ~ 04.02) |  [모든 레코드 조회하기](https://programmers.co.kr/learn/courses/30/lessons/59034)   |   [역순 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/59035)   |    [아픈 동물 찾기](https://programmers.co.kr/learn/courses/30/lessons/59036)    |      [어린 동물 찾기](https://programmers.co.kr/learn/courses/30/lessons/59037)    |  [동물의 아이디와 이름](https://programmers.co.kr/learn/courses/30/lessons/59403)  |
 | SQL 1주<br>(03.29 ~ 04.02) |     [여러 기준으로 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/59404)      |   [상위 n개 레코드](https://programmers.co.kr/learn/courses/30/lessons/59405)   |    [최댓값 구하기](https://programmers.co.kr/learn/courses/30/lessons/59415)    |      [최솟값 구하기](https://programmers.co.kr/learn/courses/30/lessons/59038)    |  [동물 수 구하기](https://programmers.co.kr/learn/courses/30/lessons/59406)  |
 | SQL 2주<br>(04.05 ~ 04.09) | [중복 제거하기](https://programmers.co.kr/learn/courses/30/lessons/59408) |  [고양이와 개는 몇 마리 있을까](https://programmers.co.kr/learn/courses/30/lessons/59040)  |  [동명 동물 수 찾기](https://programmers.co.kr/learn/courses/30/lessons/59041)  | [입양 시각 구하기(1)](https://programmers.co.kr/learn/courses/30/lessons/59412) | [입양 시각 구하기(2)](https://programmers.co.kr/learn/courses/30/lessons/59413)  |
