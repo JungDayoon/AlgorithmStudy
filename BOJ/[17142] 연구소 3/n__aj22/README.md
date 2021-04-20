@@ -2,7 +2,7 @@
 
 ## Algorithm
 
-구현, 시뮬레이션
+구현, 시뮬레이션, BFS
 
 ## Description
 
