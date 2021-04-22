@@ -67,14 +67,6 @@ public class _19236 {
 		}
 	}
 	
-//	private static void prevToFish(Fish[] prev) {
-//		for(int i=1; i<17; i++) {
-//			fish[i].x = prev[i].x;
-//			fish[i].y = prev[i].y;
-//			fish[i].dir = prev[i].dir;
-//		} 	
-//	}
-	
 	private static void MoveFish(int sx, int sy, int[][] map, Fish[] fish, boolean[] live) { // 물고기 이동 // (sx, sy): 상어의 위치
 		for(int i=1; i<=16; i++) { // i가 현재 물고기 번호
 			if(!live[i])	continue; // 이미 죽은 물고기라면 패스
