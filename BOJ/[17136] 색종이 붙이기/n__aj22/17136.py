@@ -26,9 +26,7 @@ def backtracking(visited, p_arr, leftnum, papern):
             answer = papern
         else:
             answer = min(answer, papern)
-
         return
-    flag = False
     for i in range(10):
         for j in range(10):
             if(not visited[i][j] and arr[i][j] == 1):
