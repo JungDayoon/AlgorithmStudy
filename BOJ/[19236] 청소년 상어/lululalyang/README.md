@@ -24,6 +24,7 @@ int[][] map = new int[4][4]; // 배열의 각 위치에 있는 물고기의 번�
 
 ```java
 boolean[] live = new boolean[17]; // 1번 ~ 16번 물고기의 살아있는지 여부
+Arrays.fill(live, true); // 처음에는 모두 살아있는 상태이므로 true로 초기화
 ```
 
 * `(0, 0)`에 있던 물고기는 잡아먹혔으므로 `live`값을 `false`로 설정.

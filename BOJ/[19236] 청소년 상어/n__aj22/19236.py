@@ -14,7 +14,6 @@ def move_fish(arr, info):
         y, x, start_direction = info[i]
         direction = start_direction
         while(True):
-            
             nexty, nextx = y+dy[direction], x+dx[direction]
             if(isin(nexty, nextx)):
                 if(arr[nexty][nextx]!=-1):
@@ -43,39 +42,32 @@ def shark_possible(arr, shark):
 
 def backtracking(arr, info, total_eat, shark):
     sharky, sharkx, sharkdir = shark
-    temparr, tempinfo = move_fish(arr, info)
+    move_fish(arr, info)
     check = shark_possible(arr, shark)
     if len(check) == 0:
         global answer
         answer = max(answer, total_eat)
         return
-    temparr[sharky][sharkx] = 0
-    print(check)
-    print(shark)
-    for i in temparr:
-        print(i)
+    arr[sharky][sharkx] = 0
     for i in check:
         y, x = i
         #먹힐 물고기 정보 저장
-        eat_fish = temparr[y][x]
-        fishinfo = tempinfo[eat_fish]
+        eat_fish = arr[y][x]
+        fishinfo = info[eat_fish]
         
         #먹기
         #상어 이동
-        temparr[y][x] = -1
-        del tempinfo[eat_fish]
+        arr[y][x] = -1
+        del info[eat_fish]
+        tempinfo = copy.deepcopy(info)
+        temparr = copy.deepcopy(arr)
         backtracking(temparr, tempinfo, total_eat+eat_fish, [y, x, fishinfo[2]])
 
-        temparr[y][x] = eat_fish
-        tempinfo[eat_fish] = fishinfo
+        arr[y][x] = eat_fish
+        info[eat_fish] = fishinfo
 
     temparr[sharky][sharkx] = -1
         
-
-    
-
-
-
 if __name__ == "__main__":
     arr = []
     info = {}
