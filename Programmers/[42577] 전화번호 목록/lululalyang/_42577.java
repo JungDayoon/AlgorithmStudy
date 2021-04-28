@@ -14,7 +14,7 @@ public class _42577 {
         	public int compare(String s1, String s2) {
         		return s1.length() - s2.length();
         	}
-        });
+        }); 
         
         Trie trie = new Trie();
         for(String now : phone_book) {
