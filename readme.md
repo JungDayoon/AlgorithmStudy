@@ -59,7 +59,7 @@
 | 5주차<br>(10.26 ~ 10.30) |      [Puyo puyo](https://www.acmicpc.net/problem/11559)    |     [문제집](https://www.acmicpc.net/problem/1766)     |     [사다리 조작](https://www.acmicpc.net/problem/15684)     |      [게임 개발](https://www.acmicpc.net/problem/1516)       |      [괄호 제거](https://www.acmicpc.net/problem/2800)     |
 
 <details>
-    <summary>6주차~20주차 문제 확인하기</summary>
+    <summary>6주차~21주차 문제 확인하기</summary>
 
 | |월|화|수|목|금|
 | :-: | :-: | :-: | :-: | :-: | :-: |   
