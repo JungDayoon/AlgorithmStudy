@@ -110,7 +110,7 @@
 | 23주차<br>(04.26 ~ 04.30) | [좋은수열](https://www.acmicpc.net/problem/2661) |[색종이 붙이기](https://www.acmicpc.net/problem/17136) |  [비숍](https://www.acmicpc.net/problem/1799)  |  [두 동전](https://www.acmicpc.net/problem/16197)  | [선발 명단](https://www.acmicpc.net/problem/3980) | 
 | 24주차<br>(05.03 ~ 05.07) | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | [베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579) | [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627) | 
 | 25주차<br>(05.10 ~ 05.14) | [빵집](https://www.acmicpc.net/problem/3109) |[Two Dots](https://www.acmicpc.net/problem/16929) |  [벽 부수고 이동하기4](https://www.acmicpc.net/problem/16946)  |  [서울 지하철 2호선](https://www.acmicpc.net/problem/16947)  | [미로 탈출하기](https://www.acmicpc.net/problem/17090) | 
-| 26주차<br>(05.17 ~ 05.21) | [지형 이동](https://programmers.co.kr/learn/courses/30/lessons/62050) | [우유와 요거트가 담긴 장바구니](https://programmers.co.kr/learn/courses/30/lessons/62284) | [쿠키 구입](https://programmers.co.kr/learn/courses/30/lessons/49995) | [숫자 게임](https://programmers.co.kr/learn/courses/30/lessons/12987) | [스티커 모으기(2)](https://programmers.co.kr/learn/courses/30/lessons/12971) | 
+| 26주차<br>(05.17 ~ 05.21) | [지형 이동](https://programmers.co.kr/learn/courses/30/lessons/62050) | [지형 편집](https://programmers.co.kr/learn/courses/30/lessons/12984) | [쿠키 구입](https://programmers.co.kr/learn/courses/30/lessons/49995) | [숫자 게임](https://programmers.co.kr/learn/courses/30/lessons/12987) | [스티커 모으기(2)](https://programmers.co.kr/learn/courses/30/lessons/12971) | 
 
 
 * 22주차 : 삼성 기출
