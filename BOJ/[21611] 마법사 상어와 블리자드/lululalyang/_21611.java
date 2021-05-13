@@ -29,7 +29,6 @@ public class _21611 {
 		System.out.print(bomb[1] + bomb[2]*2 + bomb[3]*3);
 	}
 	
-	// 테케3번 두번돌고 세번째 명령할때 remain비어있음
 	private static void solution(int M, int[][] info) {
 		ArrayList<Integer> remain;
 		for(int i=0; i<M; i++) {
