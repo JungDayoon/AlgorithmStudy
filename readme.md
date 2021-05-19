@@ -112,6 +112,7 @@
 | 24주차<br>(05.03 ~ 05.07) | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | [베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579) | [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627) | 
 | 25주차<br>(05.10 ~ 05.14) | [빵집](https://www.acmicpc.net/problem/3109) |[Two Dots](https://www.acmicpc.net/problem/16929) |  [벽 부수고 이동하기4](https://www.acmicpc.net/problem/16946)  |  [서울 지하철 2호선](https://www.acmicpc.net/problem/16947)  | [미로 탈출하기](https://www.acmicpc.net/problem/17090) | 
 | 26주차<br>(05.17 ~ 05.21) | [지형 이동](https://programmers.co.kr/learn/courses/30/lessons/62050) | [지형 편집](https://programmers.co.kr/learn/courses/30/lessons/12984) | [쿠키 구입](https://programmers.co.kr/learn/courses/30/lessons/49995) | [숫자 게임](https://programmers.co.kr/learn/courses/30/lessons/12987) | [스티커 모으기(2)](https://programmers.co.kr/learn/courses/30/lessons/12971) | 
+| 27주차<br>(05.24 ~ 05.28) | [중량제한](https://www.acmicpc.net/problem/1939) |[두 용액](https://www.acmicpc.net/problem/2470) |  [사냥꾼](https://www.acmicpc.net/problem/8983)  |  [입국심사](https://www.acmicpc.net/problem/3079)  | [꼬인 전깃줄](https://www.acmicpc.net/problem/1365) | 
 
 * 23주차 : 백트래킹
 * 24주차 : 해시, 힙
