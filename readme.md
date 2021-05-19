@@ -113,12 +113,14 @@
 | 25주차<br>(05.10 ~ 05.14) | [빵집](https://www.acmicpc.net/problem/3109) |[Two Dots](https://www.acmicpc.net/problem/16929) |  [벽 부수고 이동하기4](https://www.acmicpc.net/problem/16946)  |  [서울 지하철 2호선](https://www.acmicpc.net/problem/16947)  | [미로 탈출하기](https://www.acmicpc.net/problem/17090) | 
 | 26주차<br>(05.17 ~ 05.21) | [지형 이동](https://programmers.co.kr/learn/courses/30/lessons/62050) | [지형 편집](https://programmers.co.kr/learn/courses/30/lessons/12984) | [쿠키 구입](https://programmers.co.kr/learn/courses/30/lessons/49995) | [숫자 게임](https://programmers.co.kr/learn/courses/30/lessons/12987) | [스티커 모으기(2)](https://programmers.co.kr/learn/courses/30/lessons/12971) | 
 | 27주차<br>(05.24 ~ 05.28) | [중량제한](https://www.acmicpc.net/problem/1939) |[두 용액](https://www.acmicpc.net/problem/2470) |  [사냥꾼](https://www.acmicpc.net/problem/8983)  |  [입국심사](https://www.acmicpc.net/problem/3079)  | [꼬인 전깃줄](https://www.acmicpc.net/problem/1365) | 
+| 28주차<br>(05.31 ~ 06.04) | [휴게소 세우기](https://www.acmicpc.net/problem/1477) |[파일 합치기](https://www.acmicpc.net/problem/11066) |  [줄세우기](https://www.acmicpc.net/problem/2631)  |  [돌다리 건너기](https://www.acmicpc.net/problem/2602)  | [동전 바꿔주기](https://www.acmicpc.net/problem/2624) | 
 
 * 23주차 : 백트래킹
 * 24주차 : 해시, 힙
 * 25주차 : DFS
 * 26주차 : 프로그래머스 Summer/Winter Coding
-
+* 27주차 : 이분탐색
+* 28주차 : 
 
 ### 삼성 코테 대비 기출문제
 | |1|2|3|4|5|
