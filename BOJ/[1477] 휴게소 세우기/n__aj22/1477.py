@@ -24,6 +24,3 @@ if __name__ == "__main__":
         else:
             end = mid-1
     print(start)
-
-
-
