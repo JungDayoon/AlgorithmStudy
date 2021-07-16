@@ -59,7 +59,7 @@
 | 5주차<br>(10.26 ~ 10.30) |      [Puyo puyo](https://www.acmicpc.net/problem/11559)    |     [문제집](https://www.acmicpc.net/problem/1766)     |     [사다리 조작](https://www.acmicpc.net/problem/15684)     |      [게임 개발](https://www.acmicpc.net/problem/1516)       |      [괄호 제거](https://www.acmicpc.net/problem/2800)     |
 
 <details>
-    <summary>6주차~22주차 문제 확인하기</summary>
+    <summary>6주차~26주차 문제 확인하기</summary>
 
 | |월|화|수|목|금|
 | :-: | :-: | :-: | :-: | :-: | :-: |   
@@ -88,6 +88,10 @@
 | 21주차<br>(04.12 ~ 04.16) | [일요일 아침의 데이트](https://www.acmicpc.net/problem/1445) |[인내의 도미노 장인 호석](https://www.acmicpc.net/problem/20165) |  [불](https://www.acmicpc.net/problem/5427)  |  [치즈](https://www.acmicpc.net/problem/2636)  | [캐슬 디펜스](https://www.acmicpc.net/problem/17135) |
 | 22주차<br>(04.19 ~ 04.23) | [배열 돌리기 4](https://www.acmicpc.net/problem/17406) |[게리맨더링](https://www.acmicpc.net/problem/17471) |  [마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)  |  [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)  | [연구소 3](https://www.acmicpc.net/problem/17142) | 
 | 22주차<br>(04.19 ~ 04.23) | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144) |[아기 상어](https://www.acmicpc.net/problem/16236) |  [치킨 배달](https://www.acmicpc.net/problem/15686)  |  [마법사 상어와 블리자드](https://www.acmicpc.net/problem/21611)  | [청소년 상어](https://www.acmicpc.net/problem/19236) |
+| 23주차<br>(04.26 ~ 04.30) | [좋은수열](https://www.acmicpc.net/problem/2661) |[색종이 붙이기](https://www.acmicpc.net/problem/17136) |  [비숍](https://www.acmicpc.net/problem/1799)  |  [두 동전](https://www.acmicpc.net/problem/16197)  | [선발 명단](https://www.acmicpc.net/problem/3980) | 
+| 24주차<br>(05.03 ~ 05.07) | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | [베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579) | [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627) | 
+| 25주차<br>(05.10 ~ 05.14) | [빵집](https://www.acmicpc.net/problem/3109) |[Two Dots](https://www.acmicpc.net/problem/16929) |  [벽 부수고 이동하기4](https://www.acmicpc.net/problem/16946)  |  [서울 지하철 2호선](https://www.acmicpc.net/problem/16947)  | [미로 탈출하기](https://www.acmicpc.net/problem/17090) | 
+| 26주차<br>(05.17 ~ 05.21) | [지형 이동](https://programmers.co.kr/learn/courses/30/lessons/62050) | [지형 편집](https://programmers.co.kr/learn/courses/30/lessons/12984) | [쿠키 구입](https://programmers.co.kr/learn/courses/30/lessons/49995) | [숫자 게임](https://programmers.co.kr/learn/courses/30/lessons/12987) | [스티커 모으기(2)](https://programmers.co.kr/learn/courses/30/lessons/12971) | 
 
 * 5주차 : 위상정렬과 시뮬레이션
 * 6주차 : 트라이, 이분탐색 
@@ -103,22 +107,20 @@
 * 20주차 : 다익스트라, 2020 KAKAO 인턴십
 * 21주차 : 우선순위큐
 * 22주차 : 삼성 기출
+* 23주차 : 백트래킹
+* 24주차 : 해시, 힙
+* 25주차 : DFS
+* 26주차 : 프로그래머스 Summer/Winter Coding
 
 </details>
 
 | |월|화|수|목|금|
 | :-: | :-: | :-: | :-: | :-: | :-: |  
-| 23주차<br>(04.26 ~ 04.30) | [좋은수열](https://www.acmicpc.net/problem/2661) |[색종이 붙이기](https://www.acmicpc.net/problem/17136) |  [비숍](https://www.acmicpc.net/problem/1799)  |  [두 동전](https://www.acmicpc.net/problem/16197)  | [선발 명단](https://www.acmicpc.net/problem/3980) | 
-| 24주차<br>(05.03 ~ 05.07) | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | [베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579) | [디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627) | 
-| 25주차<br>(05.10 ~ 05.14) | [빵집](https://www.acmicpc.net/problem/3109) |[Two Dots](https://www.acmicpc.net/problem/16929) |  [벽 부수고 이동하기4](https://www.acmicpc.net/problem/16946)  |  [서울 지하철 2호선](https://www.acmicpc.net/problem/16947)  | [미로 탈출하기](https://www.acmicpc.net/problem/17090) | 
-| 26주차<br>(05.17 ~ 05.21) | [지형 이동](https://programmers.co.kr/learn/courses/30/lessons/62050) | [지형 편집](https://programmers.co.kr/learn/courses/30/lessons/12984) | [쿠키 구입](https://programmers.co.kr/learn/courses/30/lessons/49995) | [숫자 게임](https://programmers.co.kr/learn/courses/30/lessons/12987) | [스티커 모으기(2)](https://programmers.co.kr/learn/courses/30/lessons/12971) | 
 | 27주차<br>(05.24 ~ 05.28) | [중량제한](https://www.acmicpc.net/problem/1939) |[두 용액](https://www.acmicpc.net/problem/2470) |  [사냥꾼](https://www.acmicpc.net/problem/8983)  |  [입국심사](https://www.acmicpc.net/problem/3079)  | [꼬인 전깃줄](https://www.acmicpc.net/problem/1365) | 
 | 28주차<br>(05.31 ~ 06.04) | [휴게소 세우기](https://www.acmicpc.net/problem/1477) |[파일 합치기](https://www.acmicpc.net/problem/11066) |  [줄세우기](https://www.acmicpc.net/problem/2631)  |  [돌다리 건너기](https://www.acmicpc.net/problem/2602)  | [동전 바꿔주기](https://www.acmicpc.net/problem/2624) | 
+| 29주차<br>(07.19 ~ 07.23) | [MooTube (Silver)](https://www.acmicpc.net/problem/15591) |[새로운 게임](https://www.acmicpc.net/problem/17780) |  [괄호 추가하기 3](https://www.acmicpc.net/problem/16639)  |  [소가 길을 건너간 이유 6](https://www.acmicpc.net/problem/14466)  | [봄버맨](https://www.acmicpc.net/problem/16918) | 
+| 29주차<br>(07.26 ~ 07.30) | [감시 피하기](https://www.acmicpc.net/problem/18428) |[트럭](https://www.acmicpc.net/problem/13335) |  [성곽](https://www.acmicpc.net/problem/2234)  |  [수영장 만들기](https://www.acmicpc.net/problem/1113)  | [여행 가자](https://www.acmicpc.net/problem/1976) | 
 
-* 23주차 : 백트래킹
-* 24주차 : 해시, 힙
-* 25주차 : DFS
-* 26주차 : 프로그래머스 Summer/Winter Coding
 * 27주차 : 이분탐색
 * 28주차 : 이분탐색, dp
 
@@ -126,18 +128,6 @@
 | |1|2|3|4|5|
 | :-: | :-: | :-: | :-: | :-: | :-: |
 |          삼성기출(10.12~10.16)          |     [테트로미노](https://www.acmicpc.net/problem/14500)      |   [게리맨더링2](https://www.acmicpc.net/problem/17779)   |    [스타트와 링크](https://www.acmicpc.net/problem/14889)    |      [드래곤커브](https://www.acmicpc.net/problem/15685)    |  [이차원배열과 연산](https://www.acmicpc.net/problem/17140)  |
-
-
-### Programmers SQL
-| |1|2|3|4|5|
-| :-: | :-: | :-: | :-: | :-: | :-: |
-| SQL 1주<br>(03.29 ~ 04.02) |  [모든 레코드 조회하기](https://programmers.co.kr/learn/courses/30/lessons/59034)   |   [역순 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/59035)   |    [아픈 동물 찾기](https://programmers.co.kr/learn/courses/30/lessons/59036)    |      [어린 동물 찾기](https://programmers.co.kr/learn/courses/30/lessons/59037)    |  [동물의 아이디와 이름](https://programmers.co.kr/learn/courses/30/lessons/59403)  |
-| SQL 1주<br>(03.29 ~ 04.02) |     [여러 기준으로 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/59404)      |   [상위 n개 레코드](https://programmers.co.kr/learn/courses/30/lessons/59405)   |    [최댓값 구하기](https://programmers.co.kr/learn/courses/30/lessons/59415)    |      [최솟값 구하기](https://programmers.co.kr/learn/courses/30/lessons/59038)    |  [동물 수 구하기](https://programmers.co.kr/learn/courses/30/lessons/59406)  |
-| SQL 2주<br>(04.05 ~ 04.09) | [중복 제거하기](https://programmers.co.kr/learn/courses/30/lessons/59408) |  [고양이와 개는 몇 마리 있을까](https://programmers.co.kr/learn/courses/30/lessons/59040)  |  [동명 동물 수 찾기](https://programmers.co.kr/learn/courses/30/lessons/59041)  | [입양 시각 구하기(1)](https://programmers.co.kr/learn/courses/30/lessons/59412) | [입양 시각 구하기(2)](https://programmers.co.kr/learn/courses/30/lessons/59413)  |
-| SQL 2주<br>(04.05 ~ 04.09) | [이름이 없는 동물의 아이디](https://programmers.co.kr/learn/courses/30/lessons/59039) | [이름이 있는 동물의 아이디](https://programmers.co.kr/learn/courses/30/lessons/59407) | [NULL 처리하기](https://programmers.co.kr/learn/courses/30/lessons/59410) | [없어진 기록 찾기](https://programmers.co.kr/learn/courses/30/lessons/59042) | [있었는데요 없었습니다](https://programmers.co.kr/learn/courses/30/lessons/59043) |
-| SQL 3주<br>(04.12 ~ 04.16) | [오랜 기간 보호한 동물(1)](https://programmers.co.kr/learn/courses/30/lessons/59044) | [보호소에서 중성화한 동물](https://programmers.co.kr/learn/courses/30/lessons/59045) | [루시와 엘라 찾기](https://programmers.co.kr/learn/courses/30/lessons/59046) | [이름에 el이 들어가는 동물 찾기](https://programmers.co.kr/learn/courses/30/lessons/59047) | [중성화 여부 파악하기](https://programmers.co.kr/learn/courses/30/lessons/59409) |
-| SQL 3주<br>(04.12 ~ 04.16) | [오랜 기간 보호한 동물(2)](https://programmers.co.kr/learn/courses/30/lessons/59411) | [DATETIME에서 DATE로 형 변환](https://programmers.co.kr/learn/courses/30/lessons/59414) | | | |
-* 코테 대비 각자 풀어봅니다.
 
 
 
