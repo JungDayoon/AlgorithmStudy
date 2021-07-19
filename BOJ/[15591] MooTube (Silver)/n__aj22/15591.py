@@ -19,7 +19,6 @@ def bfs(start, graph, k):
                     answer+=1
                 visited[next_vertex] = min_num
                 queue.append([next_vertex, min_num])
-    print(visited)
     return answer
 
 if __name__ == "__main__":
@@ -29,8 +28,6 @@ if __name__ == "__main__":
         p, q, r = map(int, input().split())
         graph[p][q] = r
         graph[q][p] = r
-    
-    print(graph)
 
     for i in range(Q):
         k, v = map(int, input().split())
