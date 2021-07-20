@@ -12,9 +12,6 @@ def move(y, x, d):
 def make_key(y, x):
     return str(y)+" "+str(x)
 
-def solve_key(key):
-    y, x = key.split()
-    return y, x
 def reverse(d):
     if d == 0:
         return 1
@@ -24,6 +21,7 @@ def reverse(d):
         return 3
     else:
         return 2
+        
 def move_from_a_to_b(a, b, horse, dic, color):
     A_key = make_key(a[0], a[1])
     B_key = make_key(b[0], b[1])
