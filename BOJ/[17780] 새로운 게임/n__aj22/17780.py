@@ -49,7 +49,7 @@ def move_from_a_to_b(a, b, horse, dic, color):
 def start_game(chess_board, horse, dic):
     global K
     t = 1
-    while(t<=10):
+    while(t<=1000):
         for i in range(K):
             y, x, d = horse[i]
             key = make_key(y, x)
