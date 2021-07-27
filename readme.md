@@ -119,7 +119,7 @@
 | 27주차<br>(05.24 ~ 05.28) | [중량제한](https://www.acmicpc.net/problem/1939) |[두 용액](https://www.acmicpc.net/problem/2470) |  [사냥꾼](https://www.acmicpc.net/problem/8983)  |  [입국심사](https://www.acmicpc.net/problem/3079)  | [꼬인 전깃줄](https://www.acmicpc.net/problem/1365) | 
 | 28주차<br>(05.31 ~ 06.04) | [휴게소 세우기](https://www.acmicpc.net/problem/1477) |[파일 합치기](https://www.acmicpc.net/problem/11066) |  [줄세우기](https://www.acmicpc.net/problem/2631)  |  [돌다리 건너기](https://www.acmicpc.net/problem/2602)  | [동전 바꿔주기](https://www.acmicpc.net/problem/2624) | 
 | 29주차<br>(07.19 ~ 07.23) | [MooTube (Silver)](https://www.acmicpc.net/problem/15591) |[새로운 게임](https://www.acmicpc.net/problem/17780) |  [괄호 추가하기 3](https://www.acmicpc.net/problem/16639)  |  [소가 길을 건너간 이유 6](https://www.acmicpc.net/problem/14466)  | [봄버맨](https://www.acmicpc.net/problem/16918) | 
-| 29주차<br>(07.26 ~ 07.30) | [감시 피하기](https://www.acmicpc.net/problem/18428) |[트럭](https://www.acmicpc.net/problem/13335) |  [성곽](https://www.acmicpc.net/problem/2234)  |  [수영장 만들기](https://www.acmicpc.net/problem/1113)  | [여행 가자](https://www.acmicpc.net/problem/1976) | 
+| 30주차<br>(07.26 ~ 07.30) | [감시 피하기](https://www.acmicpc.net/problem/18428) |[트럭](https://www.acmicpc.net/problem/13335) |  [성곽](https://www.acmicpc.net/problem/2234)  |  [수영장 만들기](https://www.acmicpc.net/problem/1113)  | [여행 가자](https://www.acmicpc.net/problem/1976) | 
 
 * 27주차 : 이분탐색
 * 28주차 : 이분탐색, dp
