@@ -7,7 +7,6 @@ def make_pool(visited, arr, y, x):
     height = arr[y][x]
     min_top_height = -1
     candidate = [[y, x]]
-    flag2 = True
     while(queue):
         y, x = queue.pop(0)
 
@@ -25,9 +24,7 @@ def make_pool(visited, arr, y, x):
                     else:
                         min_top_height = min(min_top_height, next_height)
                 else:
-                    flag2 = False
-    if(not flag2):
-        return 0
+                    return 0
     for can in candidate:
         y, x = can
         arr[y][x] = min_top_height
