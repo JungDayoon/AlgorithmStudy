@@ -78,12 +78,6 @@ def check_move(mag,n,d):
                 break
         return
 
-
-
-
-
-
-
 for t in range(T):
     #초기화
     answer=0
