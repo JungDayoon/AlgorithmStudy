@@ -2,7 +2,7 @@ n = int(input())
 k = int(input())
 
 # 1부터 n*n까지의 숫자중에 mid보다 작은 숫자의 갯수를 통해 k번째 숫자를 찾을것임 (이분탐색)
-start, end = 1, n*n
+start, end = 1, k
 answer =0
 
 while start <= end:
