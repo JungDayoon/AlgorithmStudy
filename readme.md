@@ -36,15 +36,15 @@
 >
 > [eun2u](https://github.com/eun2u) (알고리즘 스터디 졸업👩‍🎓 )
 >
-> [starempty](https://github.com/starempty)
+> [starempty](https://github.com/starempty) (알고리즘 스터디 졸업👩‍🎓 )
 >
-> [n__aj22](https://github.com/njh0317)
+> [n__aj22](https://github.com/njh0317) (알고리즘 스터디 졸업👩‍🎓 )
 >
-> [lululalyang](https://github.com/SimEuilyang)
+> [lululalyang](https://github.com/SimEuilyang) (알고리즘 스터디 졸업👩‍🎓 )
 >
-> [yunhacho](https://github.com/yunhacho) (알고리즘 스터디 입학👩‍💻)
+> [yunhacho](https://github.com/yunhacho) (알고리즘 스터디 졸업👩‍🎓 )
 > 
-> [hyedinion](https://github.com/hyedinion) (알고리즘 스터디 입학👩‍💻)
+> [hyedinion](https://github.com/hyedinion) (알고리즘 스터디 졸업👩‍🎓 )
 
 ### :family_man_girl: 일정표
 
