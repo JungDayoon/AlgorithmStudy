@@ -64,7 +64,6 @@
 
 <details>
     <summary>6주차~10주차 문제 확인하기</summary>
-</details>
 
 | |월|화|수|목|금|
 | :-: | :-: | :-: | :-: | :-: | :-: |   
@@ -73,7 +72,7 @@
 | 8주차<br>(11.16 ~ 11.20) |     [해킹](https://www.acmicpc.net/problem/10282)     |   [지름길](https://www.acmicpc.net/problem/1446)   |    [그대, 그머가 되어](https://www.acmicpc.net/problem/14496)    |    [민준이와 마산 그리고 건우](https://www.acmicpc.net/problem/18223)    |   [지각하면 안 돼](https://www.acmicpc.net/problem/12763)   |
 | 9주차<br>(11.23 ~ 11.30) |     [방문 길이](https://programmers.co.kr/learn/courses/30/lessons/49994)     |   [배달](https://programmers.co.kr/learn/courses/30/lessons/12978)   |    [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993)    |    [점프와 순간 이동](https://programmers.co.kr/learn/courses/30/lessons/12980)    |   [기지국 설치](https://programmers.co.kr/learn/courses/30/lessons/12979)   |
 | 10주차<br>(01.18 ~ 01.22) |     [벽돌깨기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRQm6qfL0DFAUo)      |   [핀볼게임](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRF8s6ezEDFAUo)   |    [보물상자비밀번호](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRUN9KfZ8DFAUo)    |      [내리막길](https://www.acmicpc.net/problem/1520)    |  [합분해](https://www.acmicpc.net/problem/2225)  |
-
+</details>
 
 <details>
     <summary>11주차~15주차 문제 확인하기</summary>
